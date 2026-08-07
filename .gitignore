@@ -1,0 +1,28 @@
+# Operating-system and office temporary files
+Thumbs.db
+.DS_Store
+._*
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.pptx
+
+# Editor and local workspace settings
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.temp
+
+# Runtime caches and generated logs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Local AI/tool scratch directories
+.codex-tmp/
+outputs/tmp/
+
