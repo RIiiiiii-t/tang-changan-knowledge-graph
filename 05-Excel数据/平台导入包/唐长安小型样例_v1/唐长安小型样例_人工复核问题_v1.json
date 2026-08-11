@@ -1,0 +1,9 @@
+[
+  {"id":"MR-001","priority":"P0","category":"semantic_relation","status":"open","summary":"10条研究结论错误或临时指向TC-ROAD-0026横街"},
+  {"id":"MR-002","priority":"P0","category":"entity_type","status":"open","summary":"宫城、皇城、龙首池被标为Building"},
+  {"id":"MR-003","priority":"P1","category":"review_dependency","status":"open","summary":"15个approved对象引用pending_review来源片段"},
+  {"id":"MR-004","priority":"P1","category":"popular_evidence","status":"open","summary":"科普直接片段关联的显示顺序、角色和公开标记未保留"},
+  {"id":"MR-005","priority":"P1","category":"date_format","status":"open","summary":"科普日期仍为Excel序列值46245"},
+  {"id":"MR-006","priority":"P1","category":"display_label","status":"open","summary":"17条研究关系的显示标签使用英文关系代码"},
+  {"id":"MR-007","priority":"P1","category":"citation_page","status":"open","summary":"20条片段页码未转换为page_start/page_end"}
+]
