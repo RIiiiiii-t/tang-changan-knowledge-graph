@@ -1,0 +1,18 @@
+{
+  "contract_version": "TC-PLATFORM-CONTRACT-1.0",
+  "schema_version": "TC-SCHEMA-1.2",
+  "dataset_key": "tang_changan_pilot_v1",
+  "generated_at": "2026-08-11T00:00:00+08:00",
+  "sources": [],
+  "source_chunks": [],
+  "entities": [],
+  "relations": [],
+  "validation_summary": {
+    "errors": 0,
+    "warnings": 0,
+    "source_count": 0,
+    "source_chunk_count": 0,
+    "entity_count": 0,
+    "relation_count": 0
+  }
+}
