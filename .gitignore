@@ -15,6 +15,7 @@ Thumbs.db
 *.temp
 
 # Runtime caches and generated logs
+node_modules/
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -25,4 +26,3 @@ __pycache__/
 # Local AI/tool scratch directories
 .codex-tmp/
 outputs/tmp/
-
