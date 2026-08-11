@@ -2,8 +2,8 @@
   "contract_version": "TC-PLATFORM-CONTRACT-1.0",
   "schema_version": "TC-SCHEMA-1.2",
   "dataset_key": "tang_changan_pilot_v1",
-  "generated_at": "2026-08-11T14:52:01.128Z",
-  "source_workbook": "小型样例_第1批_文献片段与基础对象_v1.xlsx",
+  "generated_at": "2026-08-11T15:47:14.054Z",
+  "source_workbook": "小型样例_第1批_文献片段与基础对象_v2.xlsx",
   "sources": [
     {
       "id": "a53c49ec-2e97-500f-97b1-2e5782ef307f",
@@ -335,6 +335,9 @@
       "payload": {
         "chapter": "图15",
         "page": "PDF第27页／刊页331",
+        "page_label": "PDF第27页／刊页331",
+        "page_start": 331,
+        "page_end": 331,
         "related_entity_keys": [
           "TC-FANG-0096",
           "TC-FANG-0085",
@@ -361,6 +364,9 @@
       "payload": {
         "chapter": "图15",
         "page": "PDF第27页／刊页331",
+        "page_label": "PDF第27页／刊页331",
+        "page_start": 331,
+        "page_end": 331,
         "related_entity_keys": [
           "TC-ROAD-0001",
           "TC-ROAD-0009",
@@ -385,8 +391,11 @@
       "payload": {
         "chapter": "第三章第三节 唐宋都城道路网络空间形态",
         "page": "68",
+        "page_label": "68",
+        "page_start": 68,
+        "page_end": 68,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "evidence_type": "现代研究",
         "note": "完整保留道路等级与代表性宽度论述；数字多转引考古报告",
@@ -407,8 +416,11 @@
       "payload": {
         "chapter": "第三章第三节 唐宋都城道路网络空间形态",
         "page": "68—69",
+        "page_label": "68—69",
+        "page_start": 68,
+        "page_end": 69,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "evidence_type": "现代研究",
         "note": "作者对整体道路网络的综合判断",
@@ -429,8 +441,11 @@
       "payload": {
         "chapter": "第三章第三节 唐宋都城道路网络空间形态",
         "page": "72",
+        "page_label": "72",
+        "page_start": 72,
+        "page_end": 72,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "evidence_type": "现代研究",
         "note": "完整保留作者论证段；“效率最低、政治物化、缺少人性化”均为评价性主张",
@@ -451,8 +466,11 @@
       "payload": {
         "chapter": "第五章 中轴线空间分析",
         "page": "89",
+        "page_label": "89",
+        "page_start": 89,
+        "page_end": 89,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROAD-0001"
         ],
         "evidence_type": "现代研究",
         "note": "作者将宽度与御路、仪仗通行直接联系；仪仗人数需回查原始依据",
@@ -473,8 +491,11 @@
       "payload": {
         "chapter": "第五章 中轴线空间分析",
         "page": "90",
+        "page_label": "90",
+        "page_start": 90,
+        "page_end": 90,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROAD-0001"
         ],
         "evidence_type": "现代研究",
         "note": "作者综合结论；政治空间解释需与其他研究交叉验证",
@@ -495,14 +516,17 @@
       "payload": {
         "chapter": "引言",
         "page": "219",
+        "page_label": "219",
+        "page_start": 219,
+        "page_end": 219,
         "related_entity_keys": [
           "TC-LAYOUT-0001"
         ],
         "evidence_type": "现代研究",
         "note": "三级体系为作者综合；具体坊内形态仍有疑问",
-        "correction_status": "unreviewed"
+        "correction_status": "human_reviewed"
       },
-      "status": "pending_review",
+      "status": "approved",
       "visibility": "researcher",
       "confidence": 0.9,
       "created_at": null,
@@ -517,14 +541,17 @@
       "payload": {
         "chapter": "一 坊内的街",
         "page": "220",
+        "page_label": "220",
+        "page_start": 220,
+        "page_end": 220,
         "related_entity_keys": [
           "TC-LAYOUT-0001"
         ],
         "evidence_type": "现代研究",
         "note": "宽度有考古依据；并非每坊均有完整遗迹",
-        "correction_status": "unreviewed"
+        "correction_status": "human_reviewed"
       },
-      "status": "pending_review",
+      "status": "approved",
       "visibility": "researcher",
       "confidence": 0.9,
       "created_at": null,
@@ -539,14 +566,17 @@
       "payload": {
         "chapter": "二 坊内的巷",
         "page": "234",
+        "page_label": "234",
+        "page_start": 234,
+        "page_end": 234,
         "related_entity_keys": [
           "TC-LAYOUT-0002"
         ],
         "evidence_type": "现代研究",
         "note": "作者明确限制十六分区模型的普遍性",
-        "correction_status": "unreviewed"
+        "correction_status": "human_reviewed"
       },
-      "status": "pending_review",
+      "status": "approved",
       "visibility": "researcher",
       "confidence": 0.86,
       "created_at": null,
@@ -561,14 +591,17 @@
       "payload": {
         "chapter": "二 坊内的巷·循墙巷道",
         "page": "235",
+        "page_label": "235",
+        "page_start": 235,
+        "page_end": 235,
         "related_entity_keys": [
           "TC-LAYOUT-0003"
         ],
         "evidence_type": "现代研究",
         "note": "循墙道路与环涂关系属于推测；整圈连通被作者否定",
-        "correction_status": "unreviewed"
+        "correction_status": "human_reviewed"
       },
-      "status": "pending_review",
+      "status": "approved",
       "visibility": "researcher",
       "confidence": 0.82,
       "created_at": null,
@@ -583,14 +616,17 @@
       "payload": {
         "chapter": "三 曲的形态及其与住宅的关系",
         "page": "243",
+        "page_label": "243",
+        "page_start": 243,
+        "page_end": 243,
         "related_entity_keys": [
           "TC-LAYOUT-0004"
         ],
         "evidence_type": "现代研究",
         "note": "概率性推断，不排除南北向曲",
-        "correction_status": "unreviewed"
+        "correction_status": "human_reviewed"
       },
-      "status": "pending_review",
+      "status": "approved",
       "visibility": "researcher",
       "confidence": 0.83,
       "created_at": null,
@@ -605,6 +641,9 @@
       "payload": {
         "chapter": "四 本章小结",
         "page": "246",
+        "page_label": "246",
+        "page_start": 246,
+        "page_end": 246,
         "related_entity_keys": [
           "TC-LAYOUT-0001",
           "TC-LAYOUT-0002",
@@ -612,9 +651,9 @@
         ],
         "evidence_type": "现代研究",
         "note": "采用作者小结中的收敛结论；正文曾给出更宽的1.5—6米范围",
-        "correction_status": "unreviewed"
+        "correction_status": "human_reviewed"
       },
-      "status": "pending_review",
+      "status": "approved",
       "visibility": "researcher",
       "confidence": 0.88,
       "created_at": null,
@@ -629,8 +668,11 @@
       "payload": {
         "chapter": "1.1.1 北宫南城布局下的道路建设",
         "page": "10",
+        "page_label": "10",
+        "page_start": 10,
+        "page_end": 10,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "evidence_type": "现代研究",
         "note": "作者综合性判断；交通功能与行政控制功能并列",
@@ -651,6 +693,9 @@
       "payload": {
         "chapter": "1.2.1 封闭坊市制下的城内街道",
         "page": "13—14",
+        "page_label": "13—14",
+        "page_start": 13,
+        "page_end": 14,
         "related_entity_keys": [
           "TC-LAYOUT-0006"
         ],
@@ -673,8 +718,12 @@
       "payload": {
         "chapter": "1.2.2 松动坊市制下的城内街道",
         "page": "15",
+        "page_label": "15",
+        "page_start": 15,
+        "page_end": 15,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001",
+          "TC-LAYOUT-0001"
         ],
         "evidence_type": "现代研究",
         "note": "包含制度演变解释；侵街诏令可继续回查《唐会要》",
@@ -695,8 +744,11 @@
       "payload": {
         "chapter": "3.1.1 长安城内诸城门的管理",
         "page": "31",
+        "page_label": "31",
+        "page_start": 31,
+        "page_end": 31,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "evidence_type": "现代研究",
         "note": "说明道路可达性受时段、城门和坊门共同控制",
@@ -717,8 +769,11 @@
       "payload": {
         "chapter": "3.1.2 长安城内主要街道的管理",
         "page": "33",
+        "page_label": "33",
+        "page_start": 33,
+        "page_end": 33,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "evidence_type": "现代研究",
         "note": "制度文本为作者转引；可作为维护道路通行空间的证据",
@@ -739,8 +794,12 @@
       "payload": {
         "chapter": "结束语",
         "page": "41",
+        "page_label": "41",
+        "page_start": 41,
+        "page_end": 41,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001",
+          "TC-LAYOUT-0001"
         ],
         "evidence_type": "现代研究",
         "note": "唐宋比较性结论；只提取其中关于唐长安的机制，并保留时代变化范围",
@@ -761,8 +820,11 @@
       "payload": {
         "chapter": "第十章 结论",
         "page": "324",
+        "page_label": "324",
+        "page_start": 324,
+        "page_end": 324,
         "related_entity_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "evidence_type": "现代研究",
         "note": "唐宋宏观比较；“仅具有”是较强二分概括，不能排除长安街道的商业和生活活动",
@@ -779,7 +841,7 @@
   "entities": [
     {
       "key": "TC-AREA-0001",
-      "label": "Building",
+      "label": "Area",
       "name": "宮城",
       "aliases": [],
       "properties": {
@@ -802,7 +864,7 @@
       "normalized_name": "宮城",
       "payload": {
         "key": "TC-AREA-0001",
-        "label": "Building",
+        "label": "Area",
         "name": "宮城",
         "aliases": [],
         "properties": {
@@ -830,7 +892,7 @@
     },
     {
       "key": "TC-AREA-0002",
-      "label": "Building",
+      "label": "Area",
       "name": "皇城",
       "aliases": [
         "子城"
@@ -855,7 +917,7 @@
       "normalized_name": "皇城",
       "payload": {
         "key": "TC-AREA-0002",
-        "label": "Building",
+        "label": "Area",
         "name": "皇城",
         "aliases": [
           "子城"
@@ -1348,7 +1410,7 @@
     },
     {
       "key": "TC-WATER-0001",
-      "label": "Building",
+      "label": "WaterBody",
       "name": "龙首池",
       "aliases": [],
       "properties": {
@@ -1371,7 +1433,7 @@
       "normalized_name": "龙首池",
       "payload": {
         "key": "TC-WATER-0001",
-        "label": "Building",
+        "label": "WaterBody",
         "name": "龙首池",
         "aliases": [],
         "properties": {
@@ -1928,6 +1990,61 @@
       "data_classification": "research_pilot"
     },
     {
+      "key": "TC-ROADNET-0001",
+      "label": "RoadNetwork",
+      "name": "唐长安道路网络",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "唐長安道路網絡",
+        "category": "城市路网",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "由城内南北向、东西向道路及坊墙、城门连接共同构成的城市道路系统；作为整体路网研究结论的承载对象",
+        "location_text": "唐长安城",
+        "source_key": "TC-REF-0101",
+        "description_quote": "道路网络部署，能够与城市经济结构、功能区分布以及区域间交通联系紧密结合"
+      },
+      "source_ids": [
+        "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2",
+        "488ecc37-9c65-58c9-a560-fed217cbf7e0"
+      ],
+      "status": "pending_review",
+      "visibility": "researcher",
+      "confidence": 0.88,
+      "id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "normalized_name": "唐长安道路网络",
+      "payload": {
+        "key": "TC-ROADNET-0001",
+        "label": "RoadNetwork",
+        "name": "唐长安道路网络",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "唐長安道路網絡",
+          "category": "城市路网",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "由城内南北向、东西向道路及坊墙、城门连接共同构成的城市道路系统；作为整体路网研究结论的承载对象",
+          "location_text": "唐长安城",
+          "source_key": "TC-REF-0101",
+          "description_quote": "道路网络部署，能够与城市经济结构、功能区分布以及区域间交通联系紧密结合"
+        },
+        "source_ids": [
+          "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2",
+          "488ecc37-9c65-58c9-a560-fed217cbf7e0"
+        ],
+        "status": "pending_review",
+        "visibility": "researcher",
+        "confidence": 0.88,
+        "origin_sheet": "实体表",
+        "origin_row": 26
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
       "key": "TC-RULE-0001",
       "label": "FunctionalZoningRule",
       "name": "皇城官署功能相对集中",
@@ -2400,7 +2517,7 @@
         "popular_text": "长安并不是每条路都一样宽：越重要、越直接连接城门的道路，通常越宽。",
         "claim_type": "尺度解释",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "subject_relation_type": "INTERPRETS",
         "proposed_by": "李瑞",
@@ -2430,7 +2547,7 @@
           "popular_text": "长安并不是每条路都一样宽：越重要、越直接连接城门的道路，通常越宽。",
           "claim_type": "尺度解释",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROADNET-0001"
           ],
           "subject_relation_type": "INTERPRETS",
           "proposed_by": "李瑞",
@@ -2465,7 +2582,7 @@
         "popular_text": "路网虽然看起来像整齐的棋盘，但不同道路的间距和宽度也在配合市场、宫城、城门等不同功能。",
         "claim_type": "规划解释",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "subject_relation_type": "INTERPRETS",
         "proposed_by": "李瑞",
@@ -2495,7 +2612,7 @@
           "popular_text": "路网虽然看起来像整齐的棋盘，但不同道路的间距和宽度也在配合市场、宫城、城门等不同功能。",
           "claim_type": "规划解释",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROADNET-0001"
           ],
           "subject_relation_type": "INTERPRETS",
           "proposed_by": "李瑞",
@@ -2530,7 +2647,7 @@
         "popular_text": "路修得很宽，不代表出行一定方便：坊墙像一道道隔板，使很多路口不能直接连通。",
         "claim_type": "交通机制",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "subject_relation_type": "EXPLAINS",
         "proposed_by": "李瑞",
@@ -2560,7 +2677,7 @@
           "popular_text": "路修得很宽，不代表出行一定方便：坊墙像一道道隔板，使很多路口不能直接连通。",
           "claim_type": "交通机制",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROADNET-0001"
           ],
           "subject_relation_type": "EXPLAINS",
           "proposed_by": "李瑞",
@@ -2595,7 +2712,7 @@
         "popular_text": "宽街不只是让车马通行，也像城市中的宽阔分界带，把不同区域分开，并强化皇城、宫城的中心地位。",
         "claim_type": "政治空间解释",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "subject_relation_type": "INTERPRETS",
         "proposed_by": "李瑞",
@@ -2625,7 +2742,7 @@
           "popular_text": "宽街不只是让车马通行，也像城市中的宽阔分界带，把不同区域分开，并强化皇城、宫城的中心地位。",
           "claim_type": "政治空间解释",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROADNET-0001"
           ],
           "subject_relation_type": "INTERPRETS",
           "proposed_by": "李瑞",
@@ -2660,7 +2777,7 @@
         "popular_text": "朱雀大街特别宽，一个重要原因是它不仅是交通道路，还是皇帝祭天、仪仗通行和举行政治活动的御路。",
         "claim_type": "礼仪政治解释",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROAD-0001"
         ],
         "subject_relation_type": "EXPLAINS",
         "proposed_by": "李瑞",
@@ -2690,7 +2807,7 @@
           "popular_text": "朱雀大街特别宽，一个重要原因是它不仅是交通道路，还是皇帝祭天、仪仗通行和举行政治活动的御路。",
           "claim_type": "礼仪政治解释",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROAD-0001"
           ],
           "subject_relation_type": "EXPLAINS",
           "proposed_by": "李瑞",
@@ -2725,7 +2842,7 @@
         "popular_text": "朱雀大街像整座长安城的“定位主轴”：它连接政治中心，也帮助人们说明其他街道和区域的位置。",
         "claim_type": "空间轴线解释",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROAD-0001"
         ],
         "subject_relation_type": "INTERPRETS",
         "proposed_by": "李瑞",
@@ -2755,7 +2872,7 @@
           "popular_text": "朱雀大街像整座长安城的“定位主轴”：它连接政治中心，也帮助人们说明其他街道和区域的位置。",
           "claim_type": "空间轴线解释",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROAD-0001"
           ],
           "subject_relation_type": "INTERPRETS",
           "proposed_by": "李瑞",
@@ -3117,7 +3234,7 @@
         "popular_text": "棋盘路网不仅让人和车找到方向，也像一道道分区线，帮助管理者控制不同坊区。",
         "claim_type": "空间治理解释",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "subject_relation_type": "INTERPRETS",
         "proposed_by": "张小娟",
@@ -3148,7 +3265,7 @@
           "popular_text": "棋盘路网不仅让人和车找到方向，也像一道道分区线，帮助管理者控制不同坊区。",
           "claim_type": "空间治理解释",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROADNET-0001"
           ],
           "subject_relation_type": "INTERPRETS",
           "proposed_by": "张小娟",
@@ -3249,7 +3366,7 @@
         "popular_text": "长安的路并不是全天都能走：鼓声一响，城门和坊门关闭，白天的通路会变成夜间的断路。",
         "claim_type": "交通管理解释",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "subject_relation_type": "EXPLAINS",
         "proposed_by": "张小娟",
@@ -3279,7 +3396,7 @@
           "popular_text": "长安的路并不是全天都能走：鼓声一响，城门和坊门关闭，白天的通路会变成夜间的断路。",
           "claim_type": "交通管理解释",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROADNET-0001"
           ],
           "subject_relation_type": "EXPLAINS",
           "proposed_by": "张小娟",
@@ -3314,7 +3431,7 @@
         "popular_text": "城市越繁荣，店铺越想靠近人流，坊墙和街道的边界就越来越难维持原样。",
         "claim_type": "制度演变解释",
         "subject_keys": [
-          "TC-ROAD-0026",
+          "TC-ROADNET-0001",
           "TC-LAYOUT-0001"
         ],
         "subject_relation_type": "EXPLAINS",
@@ -3346,7 +3463,7 @@
           "popular_text": "城市越繁荣，店铺越想靠近人流，坊墙和街道的边界就越来越难维持原样。",
           "claim_type": "制度演变解释",
           "subject_keys": [
-            "TC-ROAD-0026",
+            "TC-ROADNET-0001",
             "TC-LAYOUT-0001"
           ],
           "subject_relation_type": "EXPLAINS",
@@ -3383,7 +3500,7 @@
         "popular_text": "宽路不会自动一直保持宽：还需要禁止占路、挖坑和种地，并有人巡查、维修。",
         "claim_type": "管理机制解释",
         "subject_keys": [
-          "TC-ROAD-0026"
+          "TC-ROADNET-0001"
         ],
         "subject_relation_type": "EXPLAINS",
         "proposed_by": "张小娟",
@@ -3413,7 +3530,7 @@
           "popular_text": "宽路不会自动一直保持宽：还需要禁止占路、挖坑和种地，并有人巡查、维修。",
           "claim_type": "管理机制解释",
           "subject_keys": [
-            "TC-ROAD-0026"
+            "TC-ROADNET-0001"
           ],
           "subject_relation_type": "EXPLAINS",
           "proposed_by": "张小娟",
@@ -3457,8 +3574,34 @@
         "generated_by": "Codex辅助起草，项目组待审",
         "science_review_status": "待审核",
         "editorial_review_status": "待审核",
-        "created_date": 46245,
-        "updated_date": 46245,
+        "created_date": "2026-08-11",
+        "updated_date": "2026-08-11",
+        "direct_evidence_links": [
+          {
+            "link_key": "TC-POPLINK-0002",
+            "evidence_key": "TC-CHUNK-0103",
+            "evidence_id": "47acc4bc-c9b1-5ac5-aad8-ba7f0451a15a",
+            "support_role": "CORE_EVIDENCE",
+            "source_layer": "基础事实",
+            "display_order": 2,
+            "public_explanation": "古代文献记载横街宽三百步，并说明其具有分隔两城的作用。",
+            "is_visible": true,
+            "review_status": "pending_review",
+            "note": "发布前需用扫描版核对原文和页码。"
+          },
+          {
+            "link_key": "TC-POPLINK-0005",
+            "evidence_key": "TC-CHUNK-1004",
+            "evidence_id": "ebf8eabd-676d-50b9-97a3-d0579e346bb6",
+            "support_role": "CORE_EVIDENCE",
+            "source_layer": "研究解释",
+            "display_order": 5,
+            "public_explanation": "论文原段提供朱雀大街约150米及御路、仪仗用途的论证。",
+            "is_visible": false,
+            "review_status": "pending_review",
+            "note": "后台证据；数字与因果关系仍需回查原始出处。"
+          }
+        ],
         "note": "科普闭环试录；朱雀大街约150米及其成因来自现代论文转引，正式发布前应继续回溯原始考古报告和古籍。"
       },
       "source_ids": [
@@ -3490,8 +3633,34 @@
           "generated_by": "Codex辅助起草，项目组待审",
           "science_review_status": "待审核",
           "editorial_review_status": "待审核",
-          "created_date": 46245,
-          "updated_date": 46245,
+          "created_date": "2026-08-11",
+          "updated_date": "2026-08-11",
+          "direct_evidence_links": [
+            {
+              "link_key": "TC-POPLINK-0002",
+              "evidence_key": "TC-CHUNK-0103",
+              "evidence_id": "47acc4bc-c9b1-5ac5-aad8-ba7f0451a15a",
+              "support_role": "CORE_EVIDENCE",
+              "source_layer": "基础事实",
+              "display_order": 2,
+              "public_explanation": "古代文献记载横街宽三百步，并说明其具有分隔两城的作用。",
+              "is_visible": true,
+              "review_status": "pending_review",
+              "note": "发布前需用扫描版核对原文和页码。"
+            },
+            {
+              "link_key": "TC-POPLINK-0005",
+              "evidence_key": "TC-CHUNK-1004",
+              "evidence_id": "ebf8eabd-676d-50b9-97a3-d0579e346bb6",
+              "support_role": "CORE_EVIDENCE",
+              "source_layer": "研究解释",
+              "display_order": 5,
+              "public_explanation": "论文原段提供朱雀大街约150米及御路、仪仗用途的论证。",
+              "is_visible": false,
+              "review_status": "pending_review",
+              "note": "后台证据；数字与因果关系仍需回查原始出处。"
+            }
+          ],
           "note": "科普闭环试录；朱雀大街约150米及其成因来自现代论文转引，正式发布前应继续回溯原始考古报告和古籍。"
         },
         "source_ids": [
@@ -4004,16 +4173,16 @@
       "id": "0e0d5fa8-7dd3-550a-a461-17fe5db6c741",
       "key": "TC-REL-CLAIM-0101-01",
       "source_id": "e3b3819b-cdd3-5b47-8584-bcea8d1ea616",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "李瑞",
         "scope": "唐长安外郭城主干道路",
         "limitations": "部分数值为残存宽度；部分数据由作者转引，需回溯原始考古报告",
         "source_key": "TC-CLAIM-0101",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROADNET-0001"
       },
       "source_ids": [
         "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2"
@@ -4024,9 +4193,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0101-01",
         "source_key": "TC-CLAIM-0101",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROADNET-0001",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "李瑞",
@@ -4050,16 +4219,16 @@
       "id": "69fdc057-98ed-507c-92de-17da3d9aa7c3",
       "key": "TC-REL-CLAIM-0102-01",
       "source_id": "3a42a3d7-cc8d-58e5-9459-ad14018251a4",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "李瑞",
         "scope": "唐长安整体道路网络",
         "limitations": "宏观综合判断，需用具体道路和功能区个案进一步验证",
         "source_key": "TC-CLAIM-0102",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROADNET-0001"
       },
       "source_ids": [
         "488ecc37-9c65-58c9-a560-fed217cbf7e0"
@@ -4070,9 +4239,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0102-01",
         "source_key": "TC-CLAIM-0102",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROADNET-0001",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "李瑞",
@@ -4096,16 +4265,16 @@
       "id": "92ee3420-6bbf-53e4-849d-175f0a75145a",
       "key": "TC-REL-CLAIM-0103-01",
       "source_id": "9dcc4c05-8b8e-545d-9c95-e07a65fe4345",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
       "type": "EXPLAINS",
-      "label": "EXPLAINS",
+      "label": "解释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "李瑞",
         "scope": "唐长安坊市制道路网络",
         "limitations": "连接率算法和现代城市对比属于作者模型；“交通效率最低”不作为客观事实录入",
         "source_key": "TC-CLAIM-0103",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROADNET-0001"
       },
       "source_ids": [
         "d7de2e37-e955-5077-81db-14083e97fc01"
@@ -4116,9 +4285,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0103-01",
         "source_key": "TC-CLAIM-0103",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROADNET-0001",
         "type": "EXPLAINS",
-        "label": "EXPLAINS",
+        "label": "解释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "李瑞",
@@ -4142,16 +4311,16 @@
       "id": "334bb563-3325-5210-be3a-8469ac59ed12",
       "key": "TC-REL-CLAIM-0104-01",
       "source_id": "9e01b533-4c13-595f-84f8-3985e211083b",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "李瑞",
         "scope": "唐长安外郭城道路与坊市空间",
         "limitations": "“强权政治物化、空间浪费”等属于作者价值判断；隔离是否为最初设计动因仍需其他证据",
         "source_key": "TC-CLAIM-0104",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROADNET-0001"
       },
       "source_ids": [
         "d7de2e37-e955-5077-81db-14083e97fc01"
@@ -4162,9 +4331,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0104-01",
         "source_key": "TC-CLAIM-0104",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROADNET-0001",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "李瑞",
@@ -4188,16 +4357,16 @@
       "id": "c3ff9811-93d9-57b8-a20c-d3a65bb5daf9",
       "key": "TC-REL-CLAIM-0105-01",
       "source_id": "c7e9d2c0-7634-5e00-b759-b0bbcd25c7f0",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "68d3e105-46b0-5495-9cc5-c984da6f1bbc",
       "type": "EXPLAINS",
-      "label": "EXPLAINS",
+      "label": "解释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "李瑞",
         "scope": "朱雀大街",
         "limitations": "只适用于朱雀大街；仪仗人数和宽度因果关系需回查作者引用的古籍与考古数据",
         "source_key": "TC-CLAIM-0105",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROAD-0001"
       },
       "source_ids": [
         "ebf8eabd-676d-50b9-97a3-d0579e346bb6"
@@ -4208,9 +4377,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0105-01",
         "source_key": "TC-CLAIM-0105",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROAD-0001",
         "type": "EXPLAINS",
-        "label": "EXPLAINS",
+        "label": "解释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "李瑞",
@@ -4234,16 +4403,16 @@
       "id": "d7def511-24e6-5806-a751-d6ab497bd905",
       "key": "TC-REL-CLAIM-0106-01",
       "source_id": "544e9279-0d38-5022-b942-be6f55987f83",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "68d3e105-46b0-5495-9cc5-c984da6f1bbc",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "李瑞",
         "scope": "朱雀大街及唐长安南北中轴线",
         "limitations": "政治空间和公共空间是作者综合解释；需区分朱雀大街与完整中轴线",
         "source_key": "TC-CLAIM-0106",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROAD-0001"
       },
       "source_ids": [
         "6187d950-2b3c-5ae8-803a-496105b5ac61"
@@ -4254,9 +4423,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0106-01",
         "source_key": "TC-CLAIM-0106",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROAD-0001",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "李瑞",
@@ -4282,7 +4451,7 @@
       "source_id": "8e689a03-25e4-543e-97ea-fe4be6881068",
       "target_id": "59f39a04-3a1b-5db7-a4ef-d56e800a3d40",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "贺从容",
@@ -4302,7 +4471,7 @@
         "source_key": "TC-CLAIM-0201",
         "target_key": "TC-LAYOUT-0001",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "贺从容",
@@ -4328,7 +4497,7 @@
       "source_id": "3e944669-ccaf-589f-bf7b-186a0cd29887",
       "target_id": "5d75e6b1-4c7e-57ce-9427-cd53465afeb7",
       "type": "REFINES",
-      "label": "REFINES",
+      "label": "细化",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "贺从容",
@@ -4348,7 +4517,7 @@
         "source_key": "TC-CLAIM-0202",
         "target_key": "TC-LAYOUT-0002",
         "type": "REFINES",
-        "label": "REFINES",
+        "label": "细化",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "贺从容",
@@ -4374,7 +4543,7 @@
       "source_id": "c754f0c0-d86d-54ba-9ccb-0fff672b0c71",
       "target_id": "5797b222-09d0-5630-b69a-cd0d49e3c12e",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "贺从容",
@@ -4394,7 +4563,7 @@
         "source_key": "TC-CLAIM-0203",
         "target_key": "TC-LAYOUT-0003",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "贺从容",
@@ -4420,7 +4589,7 @@
       "source_id": "dc5853b0-bc92-5df5-9707-5dee9d5bb5c2",
       "target_id": "5ec45f63-5b1c-5a22-8886-72a34d10f59c",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "贺从容",
@@ -4440,7 +4609,7 @@
         "source_key": "TC-CLAIM-0204",
         "target_key": "TC-LAYOUT-0004",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "贺从容",
@@ -4466,7 +4635,7 @@
       "source_id": "c283ba45-f49a-5a2e-8934-46f89b92cf36",
       "target_id": "aee8d2cc-d760-56fa-8855-dd59636e15e0",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "贺从容",
@@ -4487,7 +4656,7 @@
         "source_key": "TC-CLAIM-0205",
         "target_key": "TC-LAYOUT-0005",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "贺从容",
@@ -4512,16 +4681,16 @@
       "id": "98c6fd4a-e897-5ec6-8bac-adbe14dbf112",
       "key": "TC-REL-CLAIM-0301-01",
       "source_id": "c49fb760-581e-5baa-b074-73b1ef7645c7",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
       "type": "INTERPRETS",
-      "label": "INTERPRETS",
+      "label": "阐释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "张小娟",
         "scope": "唐长安整体路网",
         "limitations": "‘维护统治稳定’是作者解释；不等于每条道路均以控制为唯一设计动因",
         "source_key": "TC-CLAIM-0301",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROADNET-0001"
       },
       "source_ids": [
         "fcdb0127-e67f-5f83-bc5e-5ecabe9a614e",
@@ -4533,9 +4702,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0301-01",
         "source_key": "TC-CLAIM-0301",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROADNET-0001",
         "type": "INTERPRETS",
-        "label": "INTERPRETS",
+        "label": "阐释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "张小娟",
@@ -4562,7 +4731,7 @@
       "source_id": "5a4fc56c-e5de-5a21-8eeb-8ddacbbd7ea9",
       "target_id": "39cd387d-0110-5b97-98ba-020c106dd2ac",
       "type": "REFINES",
-      "label": "REFINES",
+      "label": "细化",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "项目组综合张小娟、贺从容",
@@ -4582,7 +4751,7 @@
         "source_key": "TC-CLAIM-0302",
         "target_key": "TC-LAYOUT-0006",
         "type": "REFINES",
-        "label": "REFINES",
+        "label": "细化",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "项目组综合张小娟、贺从容",
@@ -4606,16 +4775,16 @@
       "id": "77fae420-437a-53b9-b770-b8a41124649a",
       "key": "TC-REL-CLAIM-0303-01",
       "source_id": "928e31cd-90c5-51c8-b997-49293a9ee655",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
       "type": "EXPLAINS",
-      "label": "EXPLAINS",
+      "label": "解释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "张小娟",
         "scope": "唐长安城门、坊门及相连道路",
         "limitations": "特许通行、婚丧疾病等例外存在；中晚唐执行强度发生变化",
         "source_key": "TC-CLAIM-0303",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROADNET-0001"
       },
       "source_ids": [
         "4e5cbaa6-f093-58a9-b7ed-4d431735711f"
@@ -4626,9 +4795,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0303-01",
         "source_key": "TC-CLAIM-0303",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROADNET-0001",
         "type": "EXPLAINS",
-        "label": "EXPLAINS",
+        "label": "解释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "张小娟",
@@ -4652,16 +4821,16 @@
       "id": "1d283aac-a178-55dc-a636-a6230b3010f7",
       "key": "TC-REL-CLAIM-0304-01",
       "source_id": "54d14aaa-d2b0-5cf9-b142-ea8c50a72ad2",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
       "type": "EXPLAINS",
-      "label": "EXPLAINS",
+      "label": "解释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "张小娟",
         "scope": "中晚唐长安坊市与街道",
         "limitations": "渐变过程，各区域不同；不能写成中唐某年坊市制突然终止",
         "source_key": "TC-CLAIM-0304",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROADNET-0001"
       },
       "source_ids": [
         "a2ddcd6a-a6fa-5e6e-a544-fb0826c326b9",
@@ -4673,9 +4842,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0304-01",
         "source_key": "TC-CLAIM-0304",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROADNET-0001",
         "type": "EXPLAINS",
-        "label": "EXPLAINS",
+        "label": "解释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "张小娟",
@@ -4702,7 +4871,7 @@
       "source_id": "54d14aaa-d2b0-5cf9-b142-ea8c50a72ad2",
       "target_id": "59f39a04-3a1b-5db7-a4ef-d56e800a3d40",
       "type": "EXPLAINS",
-      "label": "EXPLAINS",
+      "label": "解释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "张小娟",
@@ -4723,7 +4892,7 @@
         "source_key": "TC-CLAIM-0304",
         "target_key": "TC-LAYOUT-0001",
         "type": "EXPLAINS",
-        "label": "EXPLAINS",
+        "label": "解释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "张小娟",
@@ -4748,16 +4917,16 @@
       "id": "eb7b22c5-e0f7-521e-bbfd-db92c884aacc",
       "key": "TC-REL-CLAIM-0305-01",
       "source_id": "9714311f-e36d-51fa-ad3a-cbfe2b1bb27d",
-      "target_id": "4ae2c78c-3e45-507e-8bc0-3dd4749ece56",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
       "type": "EXPLAINS",
-      "label": "EXPLAINS",
+      "label": "解释",
       "properties": {
         "knowledge_layer": "INTERPRETATION",
         "proposed_by": "张小娟",
         "scope": "唐长安主要街道",
         "limitations": "制度存在不等于始终严格执行；原始条文和适用地域仍需回查",
         "source_key": "TC-CLAIM-0305",
-        "target_key": "TC-ROAD-0026"
+        "target_key": "TC-ROADNET-0001"
       },
       "source_ids": [
         "abbe864b-b332-5ed0-8f18-a1b8494ac3a2"
@@ -4768,9 +4937,9 @@
       "payload": {
         "key": "TC-REL-CLAIM-0305-01",
         "source_key": "TC-CLAIM-0305",
-        "target_key": "TC-ROAD-0026",
+        "target_key": "TC-ROADNET-0001",
         "type": "EXPLAINS",
-        "label": "EXPLAINS",
+        "label": "解释",
         "properties": {
           "knowledge_layer": "INTERPRETATION",
           "proposed_by": "张小娟",
@@ -5082,10 +5251,10 @@
     "warnings": 0,
     "source_count": 6,
     "source_chunk_count": 29,
-    "entity_count": 47,
+    "entity_count": 48,
     "relation_count": 32,
     "status_counts": {
-      "pending_review": 64,
+      "pending_review": 65,
       "approved": 15
     }
   }

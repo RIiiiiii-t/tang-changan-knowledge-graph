@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v1.xlsx";
+const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v2.xlsx";
 const outputDir = process.argv[3] ?? "05-Excel数据/平台导入包/唐长安小型样例_v1";
 const generatedAt = new Date().toISOString();
 const namespaceUrl = "6ba7b811-9dad-11d1-80b4-00c04fd430c8";
@@ -27,6 +27,26 @@ const aliases = value => splitKeys(value);
 const compact = object => Object.fromEntries(Object.entries(object).filter(([,v]) => v !== null && v !== undefined && v !== ""));
 const statusMap = value => ({"审核通过":"approved","已发布":"published","审核未通过":"rejected","退回修改":"rejected","存在争议":"disputed","待审核":"pending_review","等待确认":"pending_review"}[String(value ?? "").trim()] ?? "draft");
 const evidenceVisibility = status => status === "published" ? "public" : "researcher";
+const relationLabelMap = {INTERPRETS:"阐释",EXPLAINS:"解释",REFINES:"细化",SUPPORTS:"支持",CONTRADICTS:"冲突",AGREES_WITH:"支持另一结论",BASED_ON:"基于",PROPOSED_BY:"由…提出"};
+function excelDateToIso(value) {
+  if (value === null || value === undefined || value === "") return null;
+  if (value instanceof Date) return value.toISOString().slice(0,10);
+  if (typeof value === "number") return new Date(Date.UTC(1899,11,30) + value * 86400000).toISOString().slice(0,10);
+  const text = String(value).trim();
+  const date = new Date(text);
+  return Number.isNaN(date.getTime()) ? text : date.toISOString().slice(0,10);
+}
+function pageFields(value) {
+  if (value === null || value === undefined || value === "") return {};
+  const pageLabel = String(value).trim();
+  const journalPage = pageLabel.match(/刊页\s*(\d+)/);
+  if (journalPage) return {page_label:pageLabel,page_start:Number(journalPage[1]),page_end:Number(journalPage[1])};
+  const range = pageLabel.match(/^(\d+)\s*[—–-]\s*(\d+)$/);
+  if (range) return {page_label:pageLabel,page_start:Number(range[1]),page_end:Number(range[2])};
+  const single = pageLabel.match(/^(\d+)$/);
+  if (single) return {page_label:pageLabel,page_start:Number(single[1]),page_end:Number(single[1])};
+  return {page_label:pageLabel};
+}
 
 const wb = await SpreadsheetFile.importXlsx(await FileBlob.load(inputPath));
 function rows(sheetName) {
@@ -70,7 +90,7 @@ const sourceChunks = chunkRows.map(r => {
   const status = statusMap(r.review_status);
   return {
     id:idFor("chunk",r.chunk_key),key:r.chunk_key,source_id:sourceIdByKey.get(r.source_key),original_text:r.content,
-    payload:compact({chapter:r.chapter,volume:r.volume,page:r.page,related_entity_keys:splitKeys(r.related_entity_keys),evidence_type:r.evidence_type,note:r.note,correction_status:status === "approved" ? "human_reviewed" : "unreviewed"}),
+    payload:compact({chapter:r.chapter,volume:r.volume,page:r.page,...pageFields(r.page),related_entity_keys:splitKeys(r.related_entity_keys),evidence_type:r.evidence_type,note:r.note,correction_status:status === "approved" ? "human_reviewed" : "unreviewed"}),
     status,visibility:evidenceVisibility(status),confidence:Number(r.confidence ?? 0.7),created_at:null,updated_at:null,data_classification:"research_pilot"
   };
 });
@@ -120,10 +140,12 @@ for (const r of claimRows) {
 const popularRows=rows("科普内容表");
 const popularLinks=rows("科普依据关联");
 for (const r of popularRows) {
-  const directChunkKeys=popularLinks.filter(x=>x.content_key===r.content_key && x.evidence_object_type==="CHUNK").map(x=>x.evidence_key);
+  const directChunkLinks=popularLinks.filter(x=>x.content_key===r.content_key && x.evidence_object_type==="CHUNK");
+  const directChunkKeys=directChunkLinks.map(x=>x.evidence_key);
+  const directEvidenceLinks=directChunkLinks.map(x=>compact({link_key:x.link_key,evidence_key:x.evidence_key,evidence_id:chunkIdByKey.get(x.evidence_key),support_role:x.support_role,source_layer:x.source_layer,display_order:x.display_order,public_explanation:x.public_explanation,is_visible:String(x.is_visible??"").trim()!=="否",review_status:statusMap(x.review_status),note:x.note}));
   const fake={...r,chunk_key:directChunkKeys.join(",")};
   const status=statusMap(r.science_review_status);
-  addEntity({key:r.content_key,label:"PopularContent",name:r.title,aliases:[],properties:compact({knowledge_layer:"POPULAR",question:r.question,short_answer:r.short_answer,full_text:r.full_text,content_type:r.content_type,target_audience:r.target_audience,difficulty_level:r.difficulty_level,media_form:r.media_form,narrative_perspective:r.narrative_perspective,interaction_prompt:r.interaction_prompt,content_version:r.version,generated_by:r.generated_by,science_review_status:r.science_review_status,editorial_review_status:r.editorial_review_status,reviewer:r.reviewer,created_date:r.created_date,updated_date:r.updated_date,note:r.note}),source_ids:evidenceIds(fake),status,visibility:"researcher",confidence:0.7},r);
+  addEntity({key:r.content_key,label:"PopularContent",name:r.title,aliases:[],properties:compact({knowledge_layer:"POPULAR",question:r.question,short_answer:r.short_answer,full_text:r.full_text,content_type:r.content_type,target_audience:r.target_audience,difficulty_level:r.difficulty_level,media_form:r.media_form,narrative_perspective:r.narrative_perspective,interaction_prompt:r.interaction_prompt,content_version:r.version,generated_by:r.generated_by,science_review_status:r.science_review_status,editorial_review_status:r.editorial_review_status,reviewer:r.reviewer,created_date:excelDateToIso(r.created_date),updated_date:excelDateToIso(r.updated_date),direct_evidence_links:directEvidenceLinks,note:r.note}),source_ids:evidenceIds(fake),status,visibility:"researcher",confidence:0.7},r);
 }
 
 const entityIdByKey=new Map(entities.map(x=>[x.key,x.id]));
@@ -146,7 +168,7 @@ for(const r of rows("关系表")){
 
 for(const r of claimRows){
  const targets=splitKeys(r.subject_keys); const status=statusMap(r.review_status);
- targets.forEach((target,index)=>addRelation({key:`TC-REL-${r.claim_key.replace("TC-CLAIM-", "CLAIM-")}-${String(index+1).padStart(2,"0")}`,source_key:r.claim_key,target_key:target,type:r.subject_relation_type||"INTERPRETS",label:r.subject_relation_type||"解释",properties:{knowledge_layer:"INTERPRETATION",proposed_by:r.proposed_by,scope:r.scope,limitations:r.limitations},source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence??0.7)},r));
+ targets.forEach((target,index)=>addRelation({key:`TC-REL-${r.claim_key.replace("TC-CLAIM-", "CLAIM-")}-${String(index+1).padStart(2,"0")}`,source_key:r.claim_key,target_key:target,type:r.subject_relation_type||"INTERPRETS",label:relationLabelMap[r.subject_relation_type]||"解释",properties:{knowledge_layer:"INTERPRETATION",proposed_by:r.proposed_by,scope:r.scope,limitations:r.limitations},source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence??0.7)},r));
 }
 
 for(const r of popularLinks){
@@ -160,6 +182,11 @@ for(const r of popularLinks){
 for(const source of sources) if(!source.title || !source.identifier) error("INVALID_SOURCE","来源缺少题名或编号",{key:source.identifier});
 for(const chunk of sourceChunks) if(!chunk.original_text) error("EMPTY_CHUNK",`片段 ${chunk.key} 内容为空`,{key:chunk.key});
 for(const entity of entities) if(!entity.source_ids.length) warn("ENTITY_WITHOUT_DIRECT_EVIDENCE",`实体 ${entity.key} 没有直接片段证据`,{key:entity.key});
+const chunkById=new Map(sourceChunks.map(x=>[x.id,x]));
+for(const object of [...entities,...relations]) if(object.status==="approved") {
+  const unapproved=(object.source_ids??[]).map(id=>chunkById.get(id)).filter(chunk=>chunk && !["approved","published"].includes(chunk.status));
+  if(unapproved.length) error("APPROVED_OBJECT_WITH_UNAPPROVED_EVIDENCE",`审核通过对象 ${object.key} 引用了未审核片段：${unapproved.map(x=>x.key).join(",")}`,{key:object.key});
+}
 
 const errors=issues.filter(x=>x.severity==="ERROR");
 const warnings=issues.filter(x=>x.severity==="WARNING");

@@ -1,0 +1,9 @@
+[
+  {"id":"MR-001","priority":"P0","category":"semantic_relation","status":"resolved","resolution":"新增TC-ROADNET-0001；8条整体路网结论改指道路网络，2条朱雀大街结论改指TC-ROAD-0001"},
+  {"id":"MR-002","priority":"P0","category":"entity_type","status":"resolved","resolution":"宫城、皇城改为Area；龙首池改为WaterBody"},
+  {"id":"MR-003","priority":"P1","category":"review_dependency","status":"resolved","resolution":"按负责人确认，将TC-CHUNK-1101—1106标记为审核通过"},
+  {"id":"MR-004","priority":"P1","category":"popular_evidence","status":"resolved","resolution":"新增properties.direct_evidence_links并保留全部关联元数据"},
+  {"id":"MR-005","priority":"P1","category":"date_format","status":"resolved","resolution":"Excel日期序列转换为ISO日期2026-08-11"},
+  {"id":"MR-006","priority":"P1","category":"display_label","status":"resolved","resolution":"研究关系type保留英文代码，label使用中文"},
+  {"id":"MR-007","priority":"P1","category":"citation_page","status":"resolved","resolution":"生成page_start/page_end并保留page_label"}
+]
