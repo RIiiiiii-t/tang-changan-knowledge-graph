@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v2.xlsx";
+const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v3.xlsx";
 const outputDir = process.argv[3] ?? "05-Excel数据/平台导入包/唐长安小型样例_v1";
 const generatedAt = new Date().toISOString();
 const namespaceUrl = "6ba7b811-9dad-11d1-80b4-00c04fd430c8";
