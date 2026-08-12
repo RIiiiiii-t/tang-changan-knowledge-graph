@@ -1,4 +1,4 @@
 interface:
   display_name: "唐长安城知识提取"
-  short_description: "从历史文献提取可审核、可溯源的唐长安城知识图谱数据"
-  default_prompt: "Use $knowledge-graph-extraction to extract a small reviewable batch of Tang Changan knowledge-graph records from the supplied source."
+  short_description: "支持多人按文献分工，提取可审核、可溯源的唐长安城知识图谱数据"
+  default_prompt: "Use $knowledge-graph-extraction to assign sources and extract a reviewable batch of Tang Changan knowledge-graph records."
