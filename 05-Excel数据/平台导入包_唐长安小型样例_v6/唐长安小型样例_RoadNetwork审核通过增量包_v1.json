@@ -1,0 +1,1319 @@
+{
+  "contract_version": "TC-PLATFORM-CONTRACT-1.0",
+  "schema_version": "TC-SCHEMA-1.2",
+  "dataset_key": "tang_changan_roadnetwork_approved_v10",
+  "generated_at": "2026-08-12T15:07:05.394Z",
+  "sources": [
+    {
+      "project_key": "TC-REF-0101",
+      "author": "李瑞",
+      "edition": "博士学位论文",
+      "publisher": "陕西师范大学",
+      "publication_year": 2005,
+      "page": "论文页67—72、89—90、324",
+      "url_or_file": "E:/研/研0/挑战杯/0723/lsm0723隋大兴、唐长安/空间形态研究/李瑞 - 2005 - 唐宋都城空间形态研究.pdf",
+      "quality_level": "B",
+      "notes": "道路宽度专题核心直接研究；具体宽度数据需继续回溯原始考古报告",
+      "id": "4404c908-7a13-514f-8422-3f3ad161f2f6",
+      "title": "唐宋都城空间形态研究",
+      "source_type": "博士学位论文",
+      "identifier": "TC-REF-0101",
+      "payload": {
+        "project_key": "TC-REF-0101",
+        "author": "李瑞",
+        "edition": "博士学位论文",
+        "publisher": "陕西师范大学",
+        "publication_year": 2005,
+        "page": "论文页67—72、89—90、324",
+        "url_or_file": "E:/研/研0/挑战杯/0723/lsm0723隋大兴、唐长安/空间形态研究/李瑞 - 2005 - 唐宋都城空间形态研究.pdf",
+        "quality_level": "B",
+        "notes": "道路宽度专题核心直接研究；具体宽度数据需继续回溯原始考古报告"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.85,
+      "data_classification": "research_pilot"
+    },
+    {
+      "project_key": "TC-REF-0103",
+      "author": "张小娟",
+      "edition": "硕士学位论文",
+      "publisher": "辽宁大学",
+      "publication_year": 2013,
+      "page": "5—41",
+      "url_or_file": "03-原始文献/相关论文/唐宋都城内部道路交通研究-张小娟.pdf",
+      "quality_level": "B",
+      "notes": "唐宋比较研究；本项目仅录入唐长安内容，关键数据需回查原始文献和考古报告",
+      "id": "25931062-773e-5a42-9706-2fb45325d6c2",
+      "title": "唐宋都城内部道路交通研究",
+      "source_type": "硕士学位论文",
+      "identifier": "TC-REF-0103",
+      "payload": {
+        "project_key": "TC-REF-0103",
+        "author": "张小娟",
+        "edition": "硕士学位论文",
+        "publisher": "辽宁大学",
+        "publication_year": 2013,
+        "page": "5—41",
+        "url_or_file": "03-原始文献/相关论文/唐宋都城内部道路交通研究-张小娟.pdf",
+        "quality_level": "B",
+        "notes": "唐宋比较研究；本项目仅录入唐长安内容，关键数据需回查原始文献和考古报告"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.85,
+      "data_classification": "research_pilot"
+    }
+  ],
+  "source_chunks": [
+    {
+      "chapter": "第三章第三节 唐宋都城道路网络空间形态",
+      "page": "68",
+      "page_label": "68",
+      "page_start": 68,
+      "page_end": 68,
+      "related_entity_keys": [
+        "TC-ROADNET-0001"
+      ],
+      "evidence_type": "现代研究",
+      "note": "完整保留道路等级与代表性宽度论述；数字多转引考古报告",
+      "correction_status": "human_reviewed",
+      "id": "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2",
+      "key": "TC-CHUNK-1001",
+      "source_id": "4404c908-7a13-514f-8422-3f3ad161f2f6",
+      "original_text": "总的看，凡是与城门相通的道路宽度均较大，通南面三门和东西六门的“六街”是长安城的主干道。这六条街道，唯外郭延兴门至延平门干道宽度较窄，考古实测不过55米，其余五条皆百米以上。朱雀大街为南北主干道，文献记载100步，相当于147米，实测为150米（北部最宽处达155米）。",
+      "payload": {
+        "chapter": "第三章第三节 唐宋都城道路网络空间形态",
+        "page": "68",
+        "page_label": "68",
+        "page_start": 68,
+        "page_end": 68,
+        "related_entity_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "evidence_type": "现代研究",
+        "note": "完整保留道路等级与代表性宽度论述；数字多转引考古报告",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.88,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "第三章第三节 唐宋都城道路网络空间形态",
+      "page": "68—69",
+      "page_label": "68—69",
+      "page_start": 68,
+      "page_end": 69,
+      "related_entity_keys": [
+        "TC-ROADNET-0001"
+      ],
+      "evidence_type": "现代研究",
+      "note": "作者对整体道路网络的综合判断",
+      "correction_status": "human_reviewed",
+      "id": "488ecc37-9c65-58c9-a560-fed217cbf7e0",
+      "key": "TC-CHUNK-1002",
+      "source_id": "4404c908-7a13-514f-8422-3f3ad161f2f6",
+      "original_text": "由此看出，长安城虽然采用传统的经纬涂制，但道路网络部署，能够与城市经济结构、功能区分布以及区域间交通联系紧密结合，道路间距疏密得体，在严谨的规整统一性中又包含有灵活性，这确实是它的一大特色。",
+      "payload": {
+        "chapter": "第三章第三节 唐宋都城道路网络空间形态",
+        "page": "68—69",
+        "page_label": "68—69",
+        "page_start": 68,
+        "page_end": 69,
+        "related_entity_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "evidence_type": "现代研究",
+        "note": "作者对整体道路网络的综合判断",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.86,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "第三章第三节 唐宋都城道路网络空间形态",
+      "page": "72",
+      "page_label": "72",
+      "page_start": 72,
+      "page_end": 72,
+      "related_entity_keys": [
+        "TC-ROADNET-0001"
+      ],
+      "evidence_type": "现代研究",
+      "note": "完整保留作者论证段；“效率最低、政治物化、缺少人性化”均为评价性主张",
+      "correction_status": "human_reviewed",
+      "id": "d7de2e37-e955-5077-81db-14083e97fc01",
+      "key": "TC-CHUNK-1003",
+      "source_id": "4404c908-7a13-514f-8422-3f3ad161f2f6",
+      "original_text": "由此可见，唐长安道路路网密度、道路占地面积，就是与今天的现代化城市相比也毫不逊色。长安城内街道布局缜密、形态顺直、宽阔，然而，由于坊墙、市墙的隔断，却是交通效率最低的，城内具有优越区位的十字路口没有利用，各级道路之间的节点少。所以，长安城内各级街道之间的贯通程度低，宽阔的街道更多的是发挥隔离带的作用，是封建强权政治的物化，突出了皇室宫殿核心区域，形成了统一缜密的坊里格局。大街上只见坊墙、市墙、宫墙，封闭的坊墙（以及御沟）阻隔了街道与两侧空间单元之间活动的横向联系，扼杀了街道的公共性。因此大街单调、空阔而冷寂，缺少人性化。",
+      "payload": {
+        "chapter": "第三章第三节 唐宋都城道路网络空间形态",
+        "page": "72",
+        "page_label": "72",
+        "page_start": 72,
+        "page_end": 72,
+        "related_entity_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "evidence_type": "现代研究",
+        "note": "完整保留作者论证段；“效率最低、政治物化、缺少人性化”均为评价性主张",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.84,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "1.1.1 北宫南城布局下的道路建设",
+      "page": "10",
+      "page_label": "10",
+      "page_start": 10,
+      "page_end": 10,
+      "related_entity_keys": [
+        "TC-ROADNET-0001"
+      ],
+      "evidence_type": "现代研究",
+      "note": "作者综合性判断；交通功能与行政控制功能并列",
+      "correction_status": "human_reviewed",
+      "id": "fcdb0127-e67f-5f83-bc5e-5ecabe9a614e",
+      "key": "TC-CHUNK-1201",
+      "source_id": "25931062-773e-5a42-9706-2fb45325d6c2",
+      "original_text": "唐代长安城内的道路，不论宫城、皇城、外郭城内的街道，均作正南正北或东西向的整齐排列。东西、南北向的道路，将长安城分割为规整的棋盘状的小单元。这样，在都城内形成了整齐划一、网格状的四通八达的道路交通网，同时，也便于唐政府通过对小区域的控制达到维护统治稳定的目的。",
+      "payload": {
+        "chapter": "1.1.1 北宫南城布局下的道路建设",
+        "page": "10",
+        "page_label": "10",
+        "page_start": 10,
+        "page_end": 10,
+        "related_entity_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "evidence_type": "现代研究",
+        "note": "作者综合性判断；交通功能与行政控制功能并列",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.86,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "1.2.2 松动坊市制下的城内街道",
+      "page": "15",
+      "page_label": "15",
+      "page_start": 15,
+      "page_end": 15,
+      "related_entity_keys": [
+        "TC-ROADNET-0001",
+        "TC-LAYOUT-0001"
+      ],
+      "evidence_type": "现代研究",
+      "note": "包含制度演变解释；侵街诏令可继续回查《唐会要》",
+      "correction_status": "human_reviewed",
+      "id": "a2ddcd6a-a6fa-5e6e-a544-fb0826c326b9",
+      "key": "TC-CHUNK-1203",
+      "source_id": "25931062-773e-5a42-9706-2fb45325d6c2",
+      "original_text": "中唐以后，突破坊市制的现象不断出现。长安城内的交易活动不再只限于在东、西两市内进行，在市民居住的坊内出现了众多的商肆店铺。……此外，长安城内的坊墙和市墙也频遭冲击。代宗时有‘诸坊市街曲，有侵街打墙、接檐造舍等，先处分一切不许，并令拆毁’的诏令，可见当时侵街打墙的现象大量存在已引起统治者的重视。……在商品经济发展的客观形势下，唐初严格的坊市制已不能适应社会发展的需要。在松动的坊市制下，都城内部的道路被商业活动侵占，不再像唐初那样整齐、宽敞。",
+      "payload": {
+        "chapter": "1.2.2 松动坊市制下的城内街道",
+        "page": "15",
+        "page_label": "15",
+        "page_start": 15,
+        "page_end": 15,
+        "related_entity_keys": [
+          "TC-ROADNET-0001",
+          "TC-LAYOUT-0001"
+        ],
+        "evidence_type": "现代研究",
+        "note": "包含制度演变解释；侵街诏令可继续回查《唐会要》",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.84,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "3.1.1 长安城内诸城门的管理",
+      "page": "31",
+      "page_label": "31",
+      "page_start": 31,
+      "page_end": 31,
+      "related_entity_keys": [
+        "TC-ROADNET-0001"
+      ],
+      "evidence_type": "现代研究",
+      "note": "说明道路可达性受时段、城门和坊门共同控制",
+      "correction_status": "human_reviewed",
+      "id": "4e5cbaa6-f093-58a9-b7ed-4d431735711f",
+      "key": "TC-CHUNK-1204",
+      "source_id": "25931062-773e-5a42-9706-2fb45325d6c2",
+      "original_text": "唐代，京城及各州、镇、戍城都实行门禁政策，城门依鼓声启闭。……京城天明时，各街准许居民通行，一直到日落承天门击鼓，城门关闭，街上就断绝人行，只有持有公使文牒者、婚嫁者可以通行。外郭城内坊门的管理，‘坊皆有垣有门，门皆有守卒’。闭门鼓后，坊门也紧闭，居民只允许在坊内活动。到天明，街鼓敲动，坊市之门开启，居民就可以出入坊门。",
+      "payload": {
+        "chapter": "3.1.1 长安城内诸城门的管理",
+        "page": "31",
+        "page_label": "31",
+        "page_start": 31,
+        "page_end": 31,
+        "related_entity_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "evidence_type": "现代研究",
+        "note": "说明道路可达性受时段、城门和坊门共同控制",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "3.1.2 长安城内主要街道的管理",
+      "page": "33",
+      "page_label": "33",
+      "page_start": 33,
+      "page_end": 33,
+      "related_entity_keys": [
+        "TC-ROADNET-0001"
+      ],
+      "evidence_type": "现代研究",
+      "note": "制度文本为作者转引；可作为维护道路通行空间的证据",
+      "correction_status": "human_reviewed",
+      "id": "abbe864b-b332-5ed0-8f18-a1b8494ac3a2",
+      "key": "TC-CHUNK-1205",
+      "source_id": "25931062-773e-5a42-9706-2fb45325d6c2",
+      "original_text": "据《唐会要》载：唐玄宗开元十九年六月下令‘京、洛两都，是惟帝宅，街衢坊市，固须修筑，城内不得穿掘为窑，烧造砖瓦。其有公私修造，不得于街巷穿坑取土。’及唐代宗广德元年八月敕，‘如闻诸军及诸府，皆于道路开畦营种，衢路隘窄，行李有妨，苟徇所资，颇乖法理，宜令诸道节使，及州府长吏，即差官巡检，各依旧路，不得辄有耕种。并所在桥路，亦令随要修葺。’可见，到唐中期时，已经出现了各种随意破坏和侵占街道路面的行为，对此朝廷下令禁止。并且唐律也对此作出规定……从而，保护了都城内街道路面的平整和街巷的宽敞。",
+      "payload": {
+        "chapter": "3.1.2 长安城内主要街道的管理",
+        "page": "33",
+        "page_label": "33",
+        "page_start": 33,
+        "page_end": 33,
+        "related_entity_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "evidence_type": "现代研究",
+        "note": "制度文本为作者转引；可作为维护道路通行空间的证据",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.88,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "结束语",
+      "page": "41",
+      "page_label": "41",
+      "page_start": 41,
+      "page_end": 41,
+      "related_entity_keys": [
+        "TC-ROADNET-0001",
+        "TC-LAYOUT-0001"
+      ],
+      "evidence_type": "现代研究",
+      "note": "唐宋比较性结论；只提取其中关于唐长安的机制，并保留时代变化范围",
+      "correction_status": "human_reviewed",
+      "id": "04be1913-04e0-5b97-b46f-05c5063882c8",
+      "key": "TC-CHUNK-1206",
+      "source_id": "25931062-773e-5a42-9706-2fb45325d6c2",
+      "original_text": "唐时，长安城内部网格状的道路既有方便交通的作用，又起到隔离作用。居民的日常生活及商业活动被封闭的坊市所限制，坊、市四周都筑墙设门，坊门、市门定时启闭，商业活动被限定在东、西两市且交易时间也受到严格的限制，同时实行严格的宵禁制度。到宋时，封闭的坊市制度崩溃……由唐到宋道路交通的管理呈现出逐渐松弛的趋势。",
+      "payload": {
+        "chapter": "结束语",
+        "page": "41",
+        "page_label": "41",
+        "page_start": 41,
+        "page_end": 41,
+        "related_entity_keys": [
+          "TC-ROADNET-0001",
+          "TC-LAYOUT-0001"
+        ],
+        "evidence_type": "现代研究",
+        "note": "唐宋比较性结论；只提取其中关于唐长安的机制，并保留时代变化范围",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.86,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    }
+  ],
+  "entities": [
+    {
+      "key": "TC-ROADNET-0001",
+      "label": "RoadNetwork",
+      "name": "唐长安道路网络",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "唐長安道路網絡",
+        "category": "城市路网",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "由城内南北向、东西向道路及坊墙、城门连接共同构成的城市道路系统；作为整体路网研究结论的承载对象",
+        "location_text": "唐长安城",
+        "source_key": "TC-REF-0101",
+        "description_quote": "道路网络部署，能够与城市经济结构、功能区分布以及区域间交通联系紧密结合"
+      },
+      "source_ids": [
+        "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2",
+        "488ecc37-9c65-58c9-a560-fed217cbf7e0"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.88,
+      "id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "normalized_name": "唐长安道路网络",
+      "payload": {
+        "key": "TC-ROADNET-0001",
+        "label": "RoadNetwork",
+        "name": "唐长安道路网络",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "唐長安道路網絡",
+          "category": "城市路网",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "由城内南北向、东西向道路及坊墙、城门连接共同构成的城市道路系统；作为整体路网研究结论的承载对象",
+          "location_text": "唐长安城",
+          "source_key": "TC-REF-0101",
+          "description_quote": "道路网络部署，能够与城市经济结构、功能区分布以及区域间交通联系紧密结合"
+        },
+        "source_ids": [
+          "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2",
+          "488ecc37-9c65-58c9-a560-fed217cbf7e0"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.88,
+        "origin_sheet": "实体表",
+        "origin_row": 26
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CLAIM-0101",
+      "label": "InterpretiveClaim",
+      "name": "主干道路宽度与城门连接和道路等级相关",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "claim_text": "与城门相通的道路通常较宽，唐长安不同等级道路的宽度存在明显差异。",
+        "popular_text": "长安并不是每条路都一样宽：越重要、越直接连接城门的道路，通常越宽。",
+        "claim_type": "尺度解释",
+        "subject_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "subject_relation_type": "INTERPRETS",
+        "proposed_by": "李瑞",
+        "basis_text": "文献宽度记载、考古实测及道路等级比较",
+        "reasoning_chain": "比较连接城门的主干道与其他道路宽度，归纳道路等级和通行联系对尺度的影响",
+        "scope": "唐长安外郭城主干道路",
+        "limitations": "部分数值为残存宽度；部分数据由作者转引，需回溯原始考古报告",
+        "claim_status": "AUTHOR_PROPOSAL",
+        "note": "整体道路系统结论暂关联现有朱雀大街实体，后续补充其他道路对象"
+      },
+      "source_ids": [
+        "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.85,
+      "id": "e3b3819b-cdd3-5b47-8584-bcea8d1ea616",
+      "normalized_name": "主干道路宽度与城门连接和道路等级相关",
+      "payload": {
+        "key": "TC-CLAIM-0101",
+        "label": "InterpretiveClaim",
+        "name": "主干道路宽度与城门连接和道路等级相关",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "claim_text": "与城门相通的道路通常较宽，唐长安不同等级道路的宽度存在明显差异。",
+          "popular_text": "长安并不是每条路都一样宽：越重要、越直接连接城门的道路，通常越宽。",
+          "claim_type": "尺度解释",
+          "subject_keys": [
+            "TC-ROADNET-0001"
+          ],
+          "subject_relation_type": "INTERPRETS",
+          "proposed_by": "李瑞",
+          "basis_text": "文献宽度记载、考古实测及道路等级比较",
+          "reasoning_chain": "比较连接城门的主干道与其他道路宽度，归纳道路等级和通行联系对尺度的影响",
+          "scope": "唐长安外郭城主干道路",
+          "limitations": "部分数值为残存宽度；部分数据由作者转引，需回溯原始考古报告",
+          "claim_status": "AUTHOR_PROPOSAL",
+          "note": "整体道路系统结论暂关联现有朱雀大街实体，后续补充其他道路对象"
+        },
+        "source_ids": [
+          "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.85,
+        "origin_sheet": "研究结论表",
+        "origin_row": 4
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CLAIM-0102",
+      "label": "InterpretiveClaim",
+      "name": "道路网络与城市功能区相配合",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "claim_text": "唐长安道路网络的间距和部署与经济结构、功能区分布及区域交通联系相结合。",
+        "popular_text": "路网虽然看起来像整齐的棋盘，但不同道路的间距和宽度也在配合市场、宫城、城门等不同功能。",
+        "claim_type": "规划解释",
+        "subject_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "subject_relation_type": "INTERPRETS",
+        "proposed_by": "李瑞",
+        "basis_text": "作者对道路间距、功能区与区域交通联系的综合分析",
+        "reasoning_chain": "由路网疏密和道路等级差异推断道路部署对城市功能结构作出适配",
+        "scope": "唐长安整体道路网络",
+        "limitations": "宏观综合判断，需用具体道路和功能区个案进一步验证",
+        "claim_status": "AUTHOR_PROPOSAL",
+        "note": "不可据此认为每条道路宽度都有唯一功能原因"
+      },
+      "source_ids": [
+        "488ecc37-9c65-58c9-a560-fed217cbf7e0"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "id": "3a42a3d7-cc8d-58e5-9459-ad14018251a4",
+      "normalized_name": "道路网络与城市功能区相配合",
+      "payload": {
+        "key": "TC-CLAIM-0102",
+        "label": "InterpretiveClaim",
+        "name": "道路网络与城市功能区相配合",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "claim_text": "唐长安道路网络的间距和部署与经济结构、功能区分布及区域交通联系相结合。",
+          "popular_text": "路网虽然看起来像整齐的棋盘，但不同道路的间距和宽度也在配合市场、宫城、城门等不同功能。",
+          "claim_type": "规划解释",
+          "subject_keys": [
+            "TC-ROADNET-0001"
+          ],
+          "subject_relation_type": "INTERPRETS",
+          "proposed_by": "李瑞",
+          "basis_text": "作者对道路间距、功能区与区域交通联系的综合分析",
+          "reasoning_chain": "由路网疏密和道路等级差异推断道路部署对城市功能结构作出适配",
+          "scope": "唐长安整体道路网络",
+          "limitations": "宏观综合判断，需用具体道路和功能区个案进一步验证",
+          "claim_status": "AUTHOR_PROPOSAL",
+          "note": "不可据此认为每条道路宽度都有唯一功能原因"
+        },
+        "source_ids": [
+          "488ecc37-9c65-58c9-a560-fed217cbf7e0"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.8,
+        "origin_sheet": "研究结论表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CLAIM-0103",
+      "label": "InterpretiveClaim",
+      "name": "宽阔道路不等于高连通效率",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "claim_text": "坊墙和市墙减少了道路节点及横向联系，因此唐长安道路虽宽且占地多，路网贯通程度仍可能较低。",
+        "popular_text": "路修得很宽，不代表出行一定方便：坊墙像一道道隔板，使很多路口不能直接连通。",
+        "claim_type": "交通机制",
+        "subject_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "subject_relation_type": "EXPLAINS",
+        "proposed_by": "李瑞",
+        "basis_text": "道路网密度、道路占地比例、节点数量与连接率分析",
+        "reasoning_chain": "宽直路网＋坊市墙体隔断→节点较少→横向联系受限→宽度没有自动转化为高连通性",
+        "scope": "唐长安坊市制道路网络",
+        "limitations": "连接率算法和现代城市对比属于作者模型；“交通效率最低”不作为客观事实录入",
+        "claim_status": "AUTHOR_PROPOSAL",
+        "note": "保留可检验的机制，弱化价值判断"
+      },
+      "source_ids": [
+        "d7de2e37-e955-5077-81db-14083e97fc01"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.82,
+      "id": "9dcc4c05-8b8e-545d-9c95-e07a65fe4345",
+      "normalized_name": "宽阔道路不等于高连通效率",
+      "payload": {
+        "key": "TC-CLAIM-0103",
+        "label": "InterpretiveClaim",
+        "name": "宽阔道路不等于高连通效率",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "claim_text": "坊墙和市墙减少了道路节点及横向联系，因此唐长安道路虽宽且占地多，路网贯通程度仍可能较低。",
+          "popular_text": "路修得很宽，不代表出行一定方便：坊墙像一道道隔板，使很多路口不能直接连通。",
+          "claim_type": "交通机制",
+          "subject_keys": [
+            "TC-ROADNET-0001"
+          ],
+          "subject_relation_type": "EXPLAINS",
+          "proposed_by": "李瑞",
+          "basis_text": "道路网密度、道路占地比例、节点数量与连接率分析",
+          "reasoning_chain": "宽直路网＋坊市墙体隔断→节点较少→横向联系受限→宽度没有自动转化为高连通性",
+          "scope": "唐长安坊市制道路网络",
+          "limitations": "连接率算法和现代城市对比属于作者模型；“交通效率最低”不作为客观事实录入",
+          "claim_status": "AUTHOR_PROPOSAL",
+          "note": "保留可检验的机制，弱化价值判断"
+        },
+        "source_ids": [
+          "d7de2e37-e955-5077-81db-14083e97fc01"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.82,
+        "origin_sheet": "研究结论表",
+        "origin_row": 6
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CLAIM-0104",
+      "label": "InterpretiveClaim",
+      "name": "宽街承担空间隔离和政治表达功能",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "claim_text": "唐长安部分宽阔街道除交通外，还通过分隔坊、市和宫城、突出宫城核心来表达政治空间秩序。",
+        "popular_text": "宽街不只是让车马通行，也像城市中的宽阔分界带，把不同区域分开，并强化皇城、宫城的中心地位。",
+        "claim_type": "政治空间解释",
+        "subject_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "subject_relation_type": "INTERPRETS",
+        "proposed_by": "李瑞",
+        "basis_text": "坊墙、市墙、宫墙与宽街共同构成的空间分隔关系",
+        "reasoning_chain": "宽街＋封闭墙体→降低横向联系并分隔功能单元→突出宫城核心与统一里坊格局",
+        "scope": "唐长安外郭城道路与坊市空间",
+        "limitations": "“强权政治物化、空间浪费”等属于作者价值判断；隔离是否为最初设计动因仍需其他证据",
+        "claim_status": "AUTHOR_PROPOSAL",
+        "note": "不能概括为所有宽街的唯一或首要功能"
+      },
+      "source_ids": [
+        "d7de2e37-e955-5077-81db-14083e97fc01"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "id": "9e01b533-4c13-595f-84f8-3985e211083b",
+      "normalized_name": "宽街承担空间隔离和政治表达功能",
+      "payload": {
+        "key": "TC-CLAIM-0104",
+        "label": "InterpretiveClaim",
+        "name": "宽街承担空间隔离和政治表达功能",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "claim_text": "唐长安部分宽阔街道除交通外，还通过分隔坊、市和宫城、突出宫城核心来表达政治空间秩序。",
+          "popular_text": "宽街不只是让车马通行，也像城市中的宽阔分界带，把不同区域分开，并强化皇城、宫城的中心地位。",
+          "claim_type": "政治空间解释",
+          "subject_keys": [
+            "TC-ROADNET-0001"
+          ],
+          "subject_relation_type": "INTERPRETS",
+          "proposed_by": "李瑞",
+          "basis_text": "坊墙、市墙、宫墙与宽街共同构成的空间分隔关系",
+          "reasoning_chain": "宽街＋封闭墙体→降低横向联系并分隔功能单元→突出宫城核心与统一里坊格局",
+          "scope": "唐长安外郭城道路与坊市空间",
+          "limitations": "“强权政治物化、空间浪费”等属于作者价值判断；隔离是否为最初设计动因仍需其他证据",
+          "claim_status": "AUTHOR_PROPOSAL",
+          "note": "不能概括为所有宽街的唯一或首要功能"
+        },
+        "source_ids": [
+          "d7de2e37-e955-5077-81db-14083e97fc01"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.8,
+        "origin_sheet": "研究结论表",
+        "origin_row": 7
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CLAIM-0301",
+      "label": "InterpretiveClaim",
+      "name": "网格路网兼具交通与空间控制作用",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "claim_text": "唐长安正交网格既组织城市交通，也通过坊墙、街道和分区形成便于治理的空间单元。",
+        "popular_text": "棋盘路网不仅让人和车找到方向，也像一道道分区线，帮助管理者控制不同坊区。",
+        "claim_type": "空间治理解释",
+        "subject_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "subject_relation_type": "INTERPRETS",
+        "proposed_by": "张小娟",
+        "basis_text": "作者对道路格局、里坊分区与政府管理关系的综合分析",
+        "reasoning_chain": "正交道路划分网格单元→坊墙与门形成边界→交通组织与分区管理同时实现",
+        "scope": "唐长安整体路网",
+        "limitations": "‘维护统治稳定’是作者解释；不等于每条道路均以控制为唯一设计动因",
+        "claim_status": "AUTHOR_PROPOSAL",
+        "note": "与李瑞的空间隔离解释相互补充"
+      },
+      "source_ids": [
+        "fcdb0127-e67f-5f83-bc5e-5ecabe9a614e",
+        "04be1913-04e0-5b97-b46f-05c5063882c8"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.82,
+      "id": "c49fb760-581e-5baa-b074-73b1ef7645c7",
+      "normalized_name": "网格路网兼具交通与空间控制作用",
+      "payload": {
+        "key": "TC-CLAIM-0301",
+        "label": "InterpretiveClaim",
+        "name": "网格路网兼具交通与空间控制作用",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "claim_text": "唐长安正交网格既组织城市交通，也通过坊墙、街道和分区形成便于治理的空间单元。",
+          "popular_text": "棋盘路网不仅让人和车找到方向，也像一道道分区线，帮助管理者控制不同坊区。",
+          "claim_type": "空间治理解释",
+          "subject_keys": [
+            "TC-ROADNET-0001"
+          ],
+          "subject_relation_type": "INTERPRETS",
+          "proposed_by": "张小娟",
+          "basis_text": "作者对道路格局、里坊分区与政府管理关系的综合分析",
+          "reasoning_chain": "正交道路划分网格单元→坊墙与门形成边界→交通组织与分区管理同时实现",
+          "scope": "唐长安整体路网",
+          "limitations": "‘维护统治稳定’是作者解释；不等于每条道路均以控制为唯一设计动因",
+          "claim_status": "AUTHOR_PROPOSAL",
+          "note": "与李瑞的空间隔离解释相互补充"
+        },
+        "source_ids": [
+          "fcdb0127-e67f-5f83-bc5e-5ecabe9a614e",
+          "04be1913-04e0-5b97-b46f-05c5063882c8"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.82,
+        "origin_sheet": "研究结论表",
+        "origin_row": 15
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CLAIM-0303",
+      "label": "InterpretiveClaim",
+      "name": "门禁使道路可达性具有时间变化",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "claim_text": "唐长安城门、坊门随鼓声定时启闭，同一条道路在白天可通行、夜间可能被城门和坊门切断。",
+        "popular_text": "长安的路并不是全天都能走：鼓声一响，城门和坊门关闭，白天的通路会变成夜间的断路。",
+        "claim_type": "交通管理解释",
+        "subject_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "subject_relation_type": "EXPLAINS",
+        "proposed_by": "张小娟",
+        "basis_text": "门禁、宵禁、城门和坊门启闭制度",
+        "reasoning_chain": "道路物理连接保持不变＋门按时关闭→实际可达性随时间改变",
+        "scope": "唐长安城门、坊门及相连道路",
+        "limitations": "特许通行、婚丧疾病等例外存在；中晚唐执行强度发生变化",
+        "claim_status": "AUTHOR_PROPOSAL",
+        "note": "提示未来关系表可增加开放时段或时间限定"
+      },
+      "source_ids": [
+        "4e5cbaa6-f093-58a9-b7ed-4d431735711f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "id": "928e31cd-90c5-51c8-b997-49293a9ee655",
+      "normalized_name": "门禁使道路可达性具有时间变化",
+      "payload": {
+        "key": "TC-CLAIM-0303",
+        "label": "InterpretiveClaim",
+        "name": "门禁使道路可达性具有时间变化",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "claim_text": "唐长安城门、坊门随鼓声定时启闭，同一条道路在白天可通行、夜间可能被城门和坊门切断。",
+          "popular_text": "长安的路并不是全天都能走：鼓声一响，城门和坊门关闭，白天的通路会变成夜间的断路。",
+          "claim_type": "交通管理解释",
+          "subject_keys": [
+            "TC-ROADNET-0001"
+          ],
+          "subject_relation_type": "EXPLAINS",
+          "proposed_by": "张小娟",
+          "basis_text": "门禁、宵禁、城门和坊门启闭制度",
+          "reasoning_chain": "道路物理连接保持不变＋门按时关闭→实际可达性随时间改变",
+          "scope": "唐长安城门、坊门及相连道路",
+          "limitations": "特许通行、婚丧疾病等例外存在；中晚唐执行强度发生变化",
+          "claim_status": "AUTHOR_PROPOSAL",
+          "note": "提示未来关系表可增加开放时段或时间限定"
+        },
+        "source_ids": [
+          "4e5cbaa6-f093-58a9-b7ed-4d431735711f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "研究结论表",
+        "origin_row": 17
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CLAIM-0304",
+      "label": "InterpretiveClaim",
+      "name": "商业发展推动坊市边界和道路使用方式变化",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "claim_text": "中唐以后坊内商铺、侵街打墙和沿街建舍增多，封闭坊市制逐渐松动，道路由单纯通行与分隔空间转为商业活动空间。",
+        "popular_text": "城市越繁荣，店铺越想靠近人流，坊墙和街道的边界就越来越难维持原样。",
+        "claim_type": "制度演变解释",
+        "subject_keys": [
+          "TC-ROADNET-0001",
+          "TC-LAYOUT-0001"
+        ],
+        "subject_relation_type": "EXPLAINS",
+        "proposed_by": "张小娟",
+        "basis_text": "坊内商铺、侵街打墙诏令、门禁松弛和唐宋比较",
+        "reasoning_chain": "商业需求增长→店铺向坊外和街道扩展→侵街破墙增多→封闭路网逐渐开放化",
+        "scope": "中晚唐长安坊市与街道",
+        "limitations": "渐变过程，各区域不同；不能写成中唐某年坊市制突然终止",
+        "claim_status": "AUTHOR_PROPOSAL",
+        "note": "适合科普解释规则城市如何发生日常演变"
+      },
+      "source_ids": [
+        "a2ddcd6a-a6fa-5e6e-a544-fb0826c326b9",
+        "04be1913-04e0-5b97-b46f-05c5063882c8"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.84,
+      "id": "54d14aaa-d2b0-5cf9-b142-ea8c50a72ad2",
+      "normalized_name": "商业发展推动坊市边界和道路使用方式变化",
+      "payload": {
+        "key": "TC-CLAIM-0304",
+        "label": "InterpretiveClaim",
+        "name": "商业发展推动坊市边界和道路使用方式变化",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "claim_text": "中唐以后坊内商铺、侵街打墙和沿街建舍增多，封闭坊市制逐渐松动，道路由单纯通行与分隔空间转为商业活动空间。",
+          "popular_text": "城市越繁荣，店铺越想靠近人流，坊墙和街道的边界就越来越难维持原样。",
+          "claim_type": "制度演变解释",
+          "subject_keys": [
+            "TC-ROADNET-0001",
+            "TC-LAYOUT-0001"
+          ],
+          "subject_relation_type": "EXPLAINS",
+          "proposed_by": "张小娟",
+          "basis_text": "坊内商铺、侵街打墙诏令、门禁松弛和唐宋比较",
+          "reasoning_chain": "商业需求增长→店铺向坊外和街道扩展→侵街破墙增多→封闭路网逐渐开放化",
+          "scope": "中晚唐长安坊市与街道",
+          "limitations": "渐变过程，各区域不同；不能写成中唐某年坊市制突然终止",
+          "claim_status": "AUTHOR_PROPOSAL",
+          "note": "适合科普解释规则城市如何发生日常演变"
+        },
+        "source_ids": [
+          "a2ddcd6a-a6fa-5e6e-a544-fb0826c326b9",
+          "04be1913-04e0-5b97-b46f-05c5063882c8"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.84,
+        "origin_sheet": "研究结论表",
+        "origin_row": 18
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CLAIM-0305",
+      "label": "InterpretiveClaim",
+      "name": "道路管理制度用于保护通行空间",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "claim_text": "禁止侵街、穿街取土、沿路耕种和破坏路面，并要求巡查与修缮，是唐代维持道路平整、宽敞和畅通的重要措施。",
+        "popular_text": "宽路不会自动一直保持宽：还需要禁止占路、挖坑和种地，并有人巡查、维修。",
+        "claim_type": "管理机制解释",
+        "subject_keys": [
+          "TC-ROADNET-0001"
+        ],
+        "subject_relation_type": "EXPLAINS",
+        "proposed_by": "张小娟",
+        "basis_text": "《唐会要》和《唐律疏议》相关禁令及修缮责任的作者转引",
+        "reasoning_chain": "侵街与破坏风险→法律禁令＋巡查修缮→保护有效路宽和通行条件",
+        "scope": "唐长安主要街道",
+        "limitations": "制度存在不等于始终严格执行；原始条文和适用地域仍需回查",
+        "claim_status": "AUTHOR_PROPOSAL",
+        "note": "补充‘为什么宽街后来可能变窄’的管理视角"
+      },
+      "source_ids": [
+        "abbe864b-b332-5ed0-8f18-a1b8494ac3a2"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.86,
+      "id": "9714311f-e36d-51fa-ad3a-cbfe2b1bb27d",
+      "normalized_name": "道路管理制度用于保护通行空间",
+      "payload": {
+        "key": "TC-CLAIM-0305",
+        "label": "InterpretiveClaim",
+        "name": "道路管理制度用于保护通行空间",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "claim_text": "禁止侵街、穿街取土、沿路耕种和破坏路面，并要求巡查与修缮，是唐代维持道路平整、宽敞和畅通的重要措施。",
+          "popular_text": "宽路不会自动一直保持宽：还需要禁止占路、挖坑和种地，并有人巡查、维修。",
+          "claim_type": "管理机制解释",
+          "subject_keys": [
+            "TC-ROADNET-0001"
+          ],
+          "subject_relation_type": "EXPLAINS",
+          "proposed_by": "张小娟",
+          "basis_text": "《唐会要》和《唐律疏议》相关禁令及修缮责任的作者转引",
+          "reasoning_chain": "侵街与破坏风险→法律禁令＋巡查修缮→保护有效路宽和通行条件",
+          "scope": "唐长安主要街道",
+          "limitations": "制度存在不等于始终严格执行；原始条文和适用地域仍需回查",
+          "claim_status": "AUTHOR_PROPOSAL",
+          "note": "补充‘为什么宽街后来可能变窄’的管理视角"
+        },
+        "source_ids": [
+          "abbe864b-b332-5ed0-8f18-a1b8494ac3a2"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.86,
+        "origin_sheet": "研究结论表",
+        "origin_row": 19
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    }
+  ],
+  "relations": [
+    {
+      "id": "0e0d5fa8-7dd3-550a-a461-17fe5db6c741",
+      "key": "TC-REL-CLAIM-0101-01",
+      "source_id": "e3b3819b-cdd3-5b47-8584-bcea8d1ea616",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "type": "INTERPRETS",
+      "label": "阐释",
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "proposed_by": "李瑞",
+        "scope": "唐长安外郭城主干道路",
+        "limitations": "部分数值为残存宽度；部分数据由作者转引，需回溯原始考古报告",
+        "source_key": "TC-CLAIM-0101",
+        "target_key": "TC-ROADNET-0001"
+      },
+      "source_ids": [
+        "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.85,
+      "payload": {
+        "key": "TC-REL-CLAIM-0101-01",
+        "source_key": "TC-CLAIM-0101",
+        "target_key": "TC-ROADNET-0001",
+        "type": "INTERPRETS",
+        "label": "阐释",
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "proposed_by": "李瑞",
+          "scope": "唐长安外郭城主干道路",
+          "limitations": "部分数值为残存宽度；部分数据由作者转引，需回溯原始考古报告"
+        },
+        "source_ids": [
+          "e9ac1258-8319-52dc-b8e1-0c974d0ca1d2"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.85,
+        "origin_sheet": "研究结论表",
+        "origin_row": 4
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "69fdc057-98ed-507c-92de-17da3d9aa7c3",
+      "key": "TC-REL-CLAIM-0102-01",
+      "source_id": "3a42a3d7-cc8d-58e5-9459-ad14018251a4",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "type": "INTERPRETS",
+      "label": "阐释",
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "proposed_by": "李瑞",
+        "scope": "唐长安整体道路网络",
+        "limitations": "宏观综合判断，需用具体道路和功能区个案进一步验证",
+        "source_key": "TC-CLAIM-0102",
+        "target_key": "TC-ROADNET-0001"
+      },
+      "source_ids": [
+        "488ecc37-9c65-58c9-a560-fed217cbf7e0"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "payload": {
+        "key": "TC-REL-CLAIM-0102-01",
+        "source_key": "TC-CLAIM-0102",
+        "target_key": "TC-ROADNET-0001",
+        "type": "INTERPRETS",
+        "label": "阐释",
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "proposed_by": "李瑞",
+          "scope": "唐长安整体道路网络",
+          "limitations": "宏观综合判断，需用具体道路和功能区个案进一步验证"
+        },
+        "source_ids": [
+          "488ecc37-9c65-58c9-a560-fed217cbf7e0"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.8,
+        "origin_sheet": "研究结论表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "92ee3420-6bbf-53e4-849d-175f0a75145a",
+      "key": "TC-REL-CLAIM-0103-01",
+      "source_id": "9dcc4c05-8b8e-545d-9c95-e07a65fe4345",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "type": "EXPLAINS",
+      "label": "解释",
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "proposed_by": "李瑞",
+        "scope": "唐长安坊市制道路网络",
+        "limitations": "连接率算法和现代城市对比属于作者模型；“交通效率最低”不作为客观事实录入",
+        "source_key": "TC-CLAIM-0103",
+        "target_key": "TC-ROADNET-0001"
+      },
+      "source_ids": [
+        "d7de2e37-e955-5077-81db-14083e97fc01"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.82,
+      "payload": {
+        "key": "TC-REL-CLAIM-0103-01",
+        "source_key": "TC-CLAIM-0103",
+        "target_key": "TC-ROADNET-0001",
+        "type": "EXPLAINS",
+        "label": "解释",
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "proposed_by": "李瑞",
+          "scope": "唐长安坊市制道路网络",
+          "limitations": "连接率算法和现代城市对比属于作者模型；“交通效率最低”不作为客观事实录入"
+        },
+        "source_ids": [
+          "d7de2e37-e955-5077-81db-14083e97fc01"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.82,
+        "origin_sheet": "研究结论表",
+        "origin_row": 6
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "334bb563-3325-5210-be3a-8469ac59ed12",
+      "key": "TC-REL-CLAIM-0104-01",
+      "source_id": "9e01b533-4c13-595f-84f8-3985e211083b",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "type": "INTERPRETS",
+      "label": "阐释",
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "proposed_by": "李瑞",
+        "scope": "唐长安外郭城道路与坊市空间",
+        "limitations": "“强权政治物化、空间浪费”等属于作者价值判断；隔离是否为最初设计动因仍需其他证据",
+        "source_key": "TC-CLAIM-0104",
+        "target_key": "TC-ROADNET-0001"
+      },
+      "source_ids": [
+        "d7de2e37-e955-5077-81db-14083e97fc01"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "payload": {
+        "key": "TC-REL-CLAIM-0104-01",
+        "source_key": "TC-CLAIM-0104",
+        "target_key": "TC-ROADNET-0001",
+        "type": "INTERPRETS",
+        "label": "阐释",
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "proposed_by": "李瑞",
+          "scope": "唐长安外郭城道路与坊市空间",
+          "limitations": "“强权政治物化、空间浪费”等属于作者价值判断；隔离是否为最初设计动因仍需其他证据"
+        },
+        "source_ids": [
+          "d7de2e37-e955-5077-81db-14083e97fc01"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.8,
+        "origin_sheet": "研究结论表",
+        "origin_row": 7
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "98c6fd4a-e897-5ec6-8bac-adbe14dbf112",
+      "key": "TC-REL-CLAIM-0301-01",
+      "source_id": "c49fb760-581e-5baa-b074-73b1ef7645c7",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "type": "INTERPRETS",
+      "label": "阐释",
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "proposed_by": "张小娟",
+        "scope": "唐长安整体路网",
+        "limitations": "‘维护统治稳定’是作者解释；不等于每条道路均以控制为唯一设计动因",
+        "source_key": "TC-CLAIM-0301",
+        "target_key": "TC-ROADNET-0001"
+      },
+      "source_ids": [
+        "fcdb0127-e67f-5f83-bc5e-5ecabe9a614e",
+        "04be1913-04e0-5b97-b46f-05c5063882c8"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.82,
+      "payload": {
+        "key": "TC-REL-CLAIM-0301-01",
+        "source_key": "TC-CLAIM-0301",
+        "target_key": "TC-ROADNET-0001",
+        "type": "INTERPRETS",
+        "label": "阐释",
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "proposed_by": "张小娟",
+          "scope": "唐长安整体路网",
+          "limitations": "‘维护统治稳定’是作者解释；不等于每条道路均以控制为唯一设计动因"
+        },
+        "source_ids": [
+          "fcdb0127-e67f-5f83-bc5e-5ecabe9a614e",
+          "04be1913-04e0-5b97-b46f-05c5063882c8"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.82,
+        "origin_sheet": "研究结论表",
+        "origin_row": 15
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "77fae420-437a-53b9-b770-b8a41124649a",
+      "key": "TC-REL-CLAIM-0303-01",
+      "source_id": "928e31cd-90c5-51c8-b997-49293a9ee655",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "type": "EXPLAINS",
+      "label": "解释",
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "proposed_by": "张小娟",
+        "scope": "唐长安城门、坊门及相连道路",
+        "limitations": "特许通行、婚丧疾病等例外存在；中晚唐执行强度发生变化",
+        "source_key": "TC-CLAIM-0303",
+        "target_key": "TC-ROADNET-0001"
+      },
+      "source_ids": [
+        "4e5cbaa6-f093-58a9-b7ed-4d431735711f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-CLAIM-0303-01",
+        "source_key": "TC-CLAIM-0303",
+        "target_key": "TC-ROADNET-0001",
+        "type": "EXPLAINS",
+        "label": "解释",
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "proposed_by": "张小娟",
+          "scope": "唐长安城门、坊门及相连道路",
+          "limitations": "特许通行、婚丧疾病等例外存在；中晚唐执行强度发生变化"
+        },
+        "source_ids": [
+          "4e5cbaa6-f093-58a9-b7ed-4d431735711f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "研究结论表",
+        "origin_row": 17
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "1d283aac-a178-55dc-a636-a6230b3010f7",
+      "key": "TC-REL-CLAIM-0304-01",
+      "source_id": "54d14aaa-d2b0-5cf9-b142-ea8c50a72ad2",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "type": "EXPLAINS",
+      "label": "解释",
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "proposed_by": "张小娟",
+        "scope": "中晚唐长安坊市与街道",
+        "limitations": "渐变过程，各区域不同；不能写成中唐某年坊市制突然终止",
+        "source_key": "TC-CLAIM-0304",
+        "target_key": "TC-ROADNET-0001"
+      },
+      "source_ids": [
+        "a2ddcd6a-a6fa-5e6e-a544-fb0826c326b9",
+        "04be1913-04e0-5b97-b46f-05c5063882c8"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.84,
+      "payload": {
+        "key": "TC-REL-CLAIM-0304-01",
+        "source_key": "TC-CLAIM-0304",
+        "target_key": "TC-ROADNET-0001",
+        "type": "EXPLAINS",
+        "label": "解释",
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "proposed_by": "张小娟",
+          "scope": "中晚唐长安坊市与街道",
+          "limitations": "渐变过程，各区域不同；不能写成中唐某年坊市制突然终止"
+        },
+        "source_ids": [
+          "a2ddcd6a-a6fa-5e6e-a544-fb0826c326b9",
+          "04be1913-04e0-5b97-b46f-05c5063882c8"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.84,
+        "origin_sheet": "研究结论表",
+        "origin_row": 18
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "eb7b22c5-e0f7-521e-bbfd-db92c884aacc",
+      "key": "TC-REL-CLAIM-0305-01",
+      "source_id": "9714311f-e36d-51fa-ad3a-cbfe2b1bb27d",
+      "target_id": "03a2c9cb-1760-5772-96a8-23b50eb8b555",
+      "type": "EXPLAINS",
+      "label": "解释",
+      "properties": {
+        "knowledge_layer": "INTERPRETATION",
+        "proposed_by": "张小娟",
+        "scope": "唐长安主要街道",
+        "limitations": "制度存在不等于始终严格执行；原始条文和适用地域仍需回查",
+        "source_key": "TC-CLAIM-0305",
+        "target_key": "TC-ROADNET-0001"
+      },
+      "source_ids": [
+        "abbe864b-b332-5ed0-8f18-a1b8494ac3a2"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.86,
+      "payload": {
+        "key": "TC-REL-CLAIM-0305-01",
+        "source_key": "TC-CLAIM-0305",
+        "target_key": "TC-ROADNET-0001",
+        "type": "EXPLAINS",
+        "label": "解释",
+        "properties": {
+          "knowledge_layer": "INTERPRETATION",
+          "proposed_by": "张小娟",
+          "scope": "唐长安主要街道",
+          "limitations": "制度存在不等于始终严格执行；原始条文和适用地域仍需回查"
+        },
+        "source_ids": [
+          "abbe864b-b332-5ed0-8f18-a1b8494ac3a2"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.86,
+        "origin_sheet": "研究结论表",
+        "origin_row": 19
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    }
+  ]
+}
