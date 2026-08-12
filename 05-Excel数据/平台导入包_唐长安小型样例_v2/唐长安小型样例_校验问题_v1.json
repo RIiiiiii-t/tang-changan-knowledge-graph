@@ -1,0 +1,101 @@
+[
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "坊功能表第4行未生成平康坊具有住宅功能：示例行、端点实体不存在、证据片段不存在",
+    "sheet": "坊功能表",
+    "row": 4,
+    "source_key": "TC-FANG-0027",
+    "target_key": "住宅"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "坊功能表第4行未生成平康坊具有商业功能：示例行、端点实体不存在、证据片段不存在",
+    "sheet": "坊功能表",
+    "row": 4,
+    "source_key": "TC-FANG-0027",
+    "target_key": "商业"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "坊功能表第4行未生成平康坊具有娱乐功能：示例行、端点实体不存在、证据片段不存在",
+    "sheet": "坊功能表",
+    "row": 4,
+    "source_key": "TC-FANG-0027",
+    "target_key": "娱乐"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "坊功能表第4行未生成平康坊邻近横街：示例行、端点实体不存在、证据片段不存在",
+    "sheet": "坊功能表",
+    "row": 4,
+    "source_key": "TC-FANG-0027",
+    "target_key": "TC-ROAD-0026"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "坊间空间关系第4行未生成平康坊NORTH_OF崇仁坊：示例行、端点实体不存在、证据片段不存在",
+    "sheet": "坊间空间关系",
+    "row": 4,
+    "source_key": "TC-FANG-0027",
+    "target_key": "TC-FANG-0096"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "水渠表第5行未生成永安渠流经TC-FANG-待补：端点编号待补、端点实体不存在",
+    "sheet": "水渠表",
+    "row": 5,
+    "source_key": "TC-CANAL-0002",
+    "target_key": "TC-FANG-待补"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "城门表第6行未生成明德门属于TC-AREA-待补：端点编号待补、端点实体不存在",
+    "sheet": "城门表",
+    "row": 6,
+    "source_key": "TC-GATE-0003",
+    "target_key": "TC-AREA-待补"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "城门表第7行未生成春明门属于TC-AREA-待补：端点编号待补、端点实体不存在",
+    "sheet": "城门表",
+    "row": 7,
+    "source_key": "TC-GATE-0004",
+    "target_key": "TC-AREA-待补"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "城门表第8行未生成通化门属于TC-AREA-待补：端点编号待补、端点实体不存在",
+    "sheet": "城门表",
+    "row": 8,
+    "source_key": "TC-GATE-0005",
+    "target_key": "TC-AREA-待补"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "城门表第9行未生成安化门属于TC-AREA-待补：端点编号待补、端点实体不存在",
+    "sheet": "城门表",
+    "row": 9,
+    "source_key": "TC-GATE-0006",
+    "target_key": "TC-AREA-待补"
+  },
+  {
+    "severity": "WARNING",
+    "code": "SKIPPED_TOPIC_RELATION",
+    "message": "城门表第10行未生成启夏门属于TC-AREA-待补：端点编号待补、端点实体不存在",
+    "sheet": "城门表",
+    "row": 10,
+    "source_key": "TC-GATE-0007",
+    "target_key": "TC-AREA-待补"
+  }
+]
