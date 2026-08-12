@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v3.xlsx";
+const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v4.xlsx";
 const outputDir = process.argv[3] ?? "05-Excel数据/平台导入包/唐长安小型样例_v1";
 const generatedAt = new Date().toISOString();
 const namespaceUrl = "6ba7b811-9dad-11d1-80b4-00c04fd430c8";
@@ -111,7 +111,14 @@ function addEntity(entity, origin) {
   entities.push({...entity,id:idFor("entity",entity.key),normalized_name:entity.name,payload:{...entity,origin_sheet:origin.__sheet,origin_row:origin.__row},created_at:null,updated_at:null,data_classification:"research_pilot"});
 }
 
-for (const r of rows("实体表")) {
+const generatedEntityTypes = new Set([
+  "FunctionalZoningRule",
+  "LayoutRule",
+  "ScaleComparison",
+  "InterpretiveClaim",
+  "PopularContent",
+]);
+for (const r of rows("实体表").filter(r => !generatedEntityTypes.has(r.entity_type))) {
   const status=statusMap(r.review_status);
   addEntity({key:r.entity_key,label:r.entity_type,name:r.name,aliases:aliases(r.aliases),properties:compact({knowledge_layer:"FACT",name_traditional:r.name_traditional,category:r.category,period_start:r.period_start,period_end:r.period_end,description:r.description,location_text:r.location_text,source_key:r.source_key,description_quote:r.description_quote}),source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence ?? 0.7)},r);
 }
@@ -161,7 +168,10 @@ function addRelation(relation,origin) {
   relations.push({id:idFor("relation",relation.key),key:relation.key,source_id:entityIdByKey.get(relation.source_key),target_id:entityIdByKey.get(relation.target_key),type:relation.type,label:relation.label,properties:{...relation.properties,source_key:relation.source_key,target_key:relation.target_key},source_ids:relation.source_ids,status:relation.status,visibility:relation.visibility,confidence:relation.confidence,payload:{...relation,origin_sheet:origin.__sheet,origin_row:origin.__row},created_at:null,updated_at:null,data_classification:"research_pilot"});
 }
 
-for(const r of rows("关系表")){
+for(const r of rows("关系表").filter(
+  r => !String(r.relation_key ?? "").startsWith("TC-REL-CLAIM-")
+    && !String(r.relation_key ?? "").startsWith("TC-POPLINK-")
+)){
  const status=statusMap(r.review_status);
  addRelation({key:r.relation_key,source_key:r.source_key,target_key:r.target_key,type:r.relation_type,label:r.relation_label,properties:compact({knowledge_layer:r.evidence_type==="推导结论"?"INTERPRETATION":"FACT",period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,evidence_type:r.evidence_type,note:r.note}),source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence??0.7)},r);
 }
