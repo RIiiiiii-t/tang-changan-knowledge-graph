@@ -1,0 +1,2995 @@
+{
+  "contract_version": "TC-PLATFORM-CONTRACT-1.0",
+  "schema_version": "TC-SCHEMA-1.2",
+  "dataset_key": "tang_changan_p0_approved_v9",
+  "generated_at": "2026-08-12T14:30:14.005Z",
+  "sources": [
+    {
+      "project_key": "TC-REF-0004",
+      "author": "项目同事",
+      "edition": "2026-08-08工作版",
+      "publication_year": 2026,
+      "page": "道路分级表第6、8—12行；坊功能表第29—30、81—86行",
+      "url_or_file": "D:/xwechat_files/wxid_w49m4vaa1ruj22_af3b/msg/file/2026-08/唐长安城知识图谱录入模板_108坊完整道路水渠.xlsx",
+      "quality_level": "B",
+      "notes": "用于统一108坊主键、抽象平面坐标和道路编码；x=±3坊列的位置按第二街与第三街之间表述；历史内容仍须回到原文审核",
+      "id": "107b544f-a939-57f1-b016-dea6abd56847",
+      "title": "唐长安城知识图谱录入模板_108坊完整道路水渠",
+      "source_type": "项目数据表",
+      "identifier": "TC-REF-0004",
+      "payload": {
+        "project_key": "TC-REF-0004",
+        "author": "项目同事",
+        "edition": "2026-08-08工作版",
+        "publication_year": 2026,
+        "page": "道路分级表第6、8—12行；坊功能表第29—30、81—86行",
+        "url_or_file": "D:/xwechat_files/wxid_w49m4vaa1ruj22_af3b/msg/file/2026-08/唐长安城知识图谱录入模板_108坊完整道路水渠.xlsx",
+        "quality_level": "B",
+        "notes": "用于统一108坊主键、抽象平面坐标和道路编码；x=±3坊列的位置按第二街与第三街之间表述；历史内容仍须回到原文审核"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.85,
+      "data_classification": "research_pilot"
+    }
+  ],
+  "source_chunks": [
+    {
+      "chapter": "校補記",
+      "related_entity_keys": [
+        "TC-CANAL-0002"
+      ],
+      "evidence_type": "史料直述",
+      "note": "支持永安渠走向及经过坊区；需扫描版复核",
+      "correction_status": "human_reviewed",
+      "id": "4eb5f5d5-0cea-5652-8d94-b52dfedbd561",
+      "key": "TC-CHUNK-0107",
+      "source_id": "a53c49ec-2e97-500f-97b1-2e5782ef307f",
+      "original_text": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西。",
+      "payload": {
+        "chapter": "校補記",
+        "related_entity_keys": [
+          "TC-CANAL-0002"
+        ],
+        "evidence_type": "史料直述",
+        "note": "支持永安渠走向及经过坊区；需扫描版复核",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "校補記",
+      "related_entity_keys": [
+        "TC-GATE-0004"
+      ],
+      "evidence_type": "史料直述",
+      "note": "春明门别称及门外设施",
+      "correction_status": "human_reviewed",
+      "id": "75eb0d9b-367f-5a7c-9283-9fb72f1c0385",
+      "key": "TC-CHUNK-0108",
+      "source_id": "a53c49ec-2e97-500f-97b1-2e5782ef307f",
+      "original_text": "春明門，時即稱東門，門外有鎮國寺。",
+      "payload": {
+        "chapter": "校補記",
+        "related_entity_keys": [
+          "TC-GATE-0004"
+        ],
+        "evidence_type": "史料直述",
+        "note": "春明门别称及门外设施",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "校補記",
+      "related_entity_keys": [
+        "TC-GATE-0005"
+      ],
+      "evidence_type": "史料直述",
+      "note": "支持通化门附近车工业活动，需核对引书层级",
+      "correction_status": "human_reviewed",
+      "id": "5fdc06b7-9442-5be9-8939-363dfddf33a0",
+      "key": "TC-CHUNK-0109",
+      "source_id": "a53c49ec-2e97-500f-97b1-2e5782ef307f",
+      "original_text": "通化門長店多是車工所居，輪轅輻轂，皆有定價。",
+      "payload": {
+        "chapter": "校補記",
+        "related_entity_keys": [
+          "TC-GATE-0005"
+        ],
+        "evidence_type": "史料直述",
+        "note": "支持通化门附近车工业活动，需核对引书层级",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.85,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "图15",
+      "page": "PDF第27页／刊页331",
+      "page_label": "PDF第27页／刊页331",
+      "page_start": 331,
+      "page_end": 331,
+      "related_entity_keys": [
+        "TC-ROAD-0001",
+        "TC-ROAD-0009",
+        "TC-ROAD-0004"
+      ],
+      "evidence_type": "地图标注",
+      "note": "支持轴线定位；安化门、启夏门道路名称为项目暂名",
+      "correction_status": "human_reviewed",
+      "id": "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2",
+      "key": "TC-CHUNK-0111",
+      "source_id": "094973f8-2032-5198-a6c3-50d149566c4e",
+      "original_text": "图15所示南城三条入城南北轴线分别通过安化门、明德门、启夏门；中央轴线北接朱雀门。",
+      "payload": {
+        "chapter": "图15",
+        "page": "PDF第27页／刊页331",
+        "page_label": "PDF第27页／刊页331",
+        "page_start": 331,
+        "page_end": 331,
+        "related_entity_keys": [
+          "TC-ROAD-0001",
+          "TC-ROAD-0009",
+          "TC-ROAD-0004"
+        ],
+        "evidence_type": "地图标注",
+        "note": "支持轴线定位；安化门、启夏门道路名称为项目暂名",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "坊功能表、道路分级表",
+      "page": "第29—30行；道路TC-ROAD-0003、TC-ROAD-0004记录",
+      "page_label": "第29—30行；道路TC-ROAD-0003、TC-ROAD-0004记录",
+      "related_entity_keys": [
+        "TC-FANG-0026",
+        "TC-FANG-0027",
+        "TC-ROAD-0003",
+        "TC-ROAD-0004"
+      ],
+      "evidence_type": "数据表记录与网格解释",
+      "note": "修正原先把东第三街单独写成area的表达；坐标是项目逻辑网格，不是经纬度",
+      "correction_status": "human_reviewed",
+      "id": "8bcd1558-91bf-57e9-8e60-ebf7243bb881",
+      "key": "TC-CHUNK-0120",
+      "source_id": "107b544f-a939-57f1-b016-dea6abd56847",
+      "original_text": "同事108坊数据表记录：崇仁坊编号TC-FANG-0026，坐标(3,0)；平康坊编号TC-FANG-0027，坐标(3,1)。结合道路编码表，x=3坊列位于朱雀门街东第二街与东第三街之间。项目坐标y值向南递增。",
+      "payload": {
+        "chapter": "坊功能表、道路分级表",
+        "page": "第29—30行；道路TC-ROAD-0003、TC-ROAD-0004记录",
+        "page_label": "第29—30行；道路TC-ROAD-0003、TC-ROAD-0004记录",
+        "related_entity_keys": [
+          "TC-FANG-0026",
+          "TC-FANG-0027",
+          "TC-ROAD-0003",
+          "TC-ROAD-0004"
+        ],
+        "evidence_type": "数据表记录与网格解释",
+        "note": "修正原先把东第三街单独写成area的表达；坐标是项目逻辑网格，不是经纬度",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "坊功能表",
+      "page": "第81—86行",
+      "page_label": "第81—86行",
+      "related_entity_keys": [
+        "TC-FANG-0078",
+        "TC-FANG-0079",
+        "TC-FANG-0080",
+        "TC-FANG-0081",
+        "TC-FANG-0082",
+        "TC-FANG-0083"
+      ],
+      "evidence_type": "数据表记录",
+      "note": "用于统一永安渠所经六坊主键；历史渠线关系仍以TC-CHUNK-0107为证据",
+      "correction_status": "human_reviewed",
+      "id": "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f",
+      "key": "TC-CHUNK-0121",
+      "source_id": "107b544f-a939-57f1-b016-dea6abd56847",
+      "original_text": "同事108坊数据表记录：延康坊TC-FANG-0078、崇贤坊TC-FANG-0079、延福坊TC-FANG-0080、永安坊TC-FANG-0081、敦义坊TC-FANG-0082、大通坊TC-FANG-0083，坐标依次为(-3,3)至(-3,8)。",
+      "payload": {
+        "chapter": "坊功能表",
+        "page": "第81—86行",
+        "page_label": "第81—86行",
+        "related_entity_keys": [
+          "TC-FANG-0078",
+          "TC-FANG-0079",
+          "TC-FANG-0080",
+          "TC-FANG-0081",
+          "TC-FANG-0082",
+          "TC-FANG-0083"
+        ],
+        "evidence_type": "数据表记录",
+        "note": "用于统一永安渠所经六坊主键；历史渠线关系仍以TC-CHUNK-0107为证据",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "chapter": "道路分级表、坊功能表",
+      "page": "道路第6、8—12行；坊第29—30、81—86行",
+      "page_label": "道路第6、8—12行；坊第29—30、81—86行",
+      "related_entity_keys": [
+        "TC-ROAD-0003",
+        "TC-ROAD-0004",
+        "TC-ROAD-0008",
+        "TC-ROAD-0009",
+        "TC-FANG-0026",
+        "TC-FANG-0027",
+        "TC-FANG-0078",
+        "TC-FANG-0079",
+        "TC-FANG-0080",
+        "TC-FANG-0081",
+        "TC-FANG-0082",
+        "TC-FANG-0083"
+      ],
+      "evidence_type": "数据表记录与网格解释",
+      "note": "道路名称按同事道路主表保留；area改为两条边界道路之间",
+      "correction_status": "human_reviewed",
+      "id": "f0686003-b259-5d4d-82df-3c1dd22805bd",
+      "key": "TC-CHUNK-0122",
+      "source_id": "107b544f-a939-57f1-b016-dea6abd56847",
+      "original_text": "道路编码表记录：TC-ROAD-0003为朱雀门街东第二街；TC-ROAD-0004为朱雀门街东第三街；TC-ROAD-0008为朱雀门街西第二街；TC-ROAD-0009为朱雀门街西第三街。由坊坐标列与道路经过坊编号可知，x=3坊列位于东第二街与东第三街之间，x=-3坊列位于西第二街与西第三街之间。",
+      "payload": {
+        "chapter": "道路分级表、坊功能表",
+        "page": "道路第6、8—12行；坊第29—30、81—86行",
+        "page_label": "道路第6、8—12行；坊第29—30、81—86行",
+        "related_entity_keys": [
+          "TC-ROAD-0003",
+          "TC-ROAD-0004",
+          "TC-ROAD-0008",
+          "TC-ROAD-0009",
+          "TC-FANG-0026",
+          "TC-FANG-0027",
+          "TC-FANG-0078",
+          "TC-FANG-0079",
+          "TC-FANG-0080",
+          "TC-FANG-0081",
+          "TC-FANG-0082",
+          "TC-FANG-0083"
+        ],
+        "evidence_type": "数据表记录与网格解释",
+        "note": "道路名称按同事道路主表保留；area改为两条边界道路之间",
+        "correction_status": "human_reviewed"
+      },
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    }
+  ],
+  "entities": [
+    {
+      "key": "TC-GATE-0003",
+      "label": "Gate",
+      "name": "明德门",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "明德門",
+        "category": "外郭城门",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "位于朱雀门以南的外郭城门",
+        "source_key": "TC-REF-0001",
+        "description_quote": "南當外郭之明德門"
+      },
+      "source_ids": [
+        "0005f4d4-d974-5fea-b152-f15d0d7c307c"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "eb53fcc6-40d5-5235-8199-f78555c7e6c5",
+      "normalized_name": "明德门",
+      "payload": {
+        "key": "TC-GATE-0003",
+        "label": "Gate",
+        "name": "明德门",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "明德門",
+          "category": "外郭城门",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "位于朱雀门以南的外郭城门",
+          "source_key": "TC-REF-0001",
+          "description_quote": "南當外郭之明德門"
+        },
+        "source_ids": [
+          "0005f4d4-d974-5fea-b152-f15d0d7c307c"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 8
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-GATE-0004",
+      "label": "Gate",
+      "name": "春明门",
+      "aliases": [
+        "东门"
+      ],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "春明門",
+        "category": "外郭城门",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "横街向东直达的外郭城门",
+        "source_key": "TC-REF-0001",
+        "description_quote": "春明門，時即稱東門"
+      },
+      "source_ids": [
+        "75eb0d9b-367f-5a7c-9283-9fb72f1c0385"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "id": "23d9b77e-49d7-5451-aef4-41a1e40f3f77",
+      "normalized_name": "春明门",
+      "payload": {
+        "key": "TC-GATE-0004",
+        "label": "Gate",
+        "name": "春明门",
+        "aliases": [
+          "东门"
+        ],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "春明門",
+          "category": "外郭城门",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "横街向东直达的外郭城门",
+          "source_key": "TC-REF-0001",
+          "description_quote": "春明門，時即稱東門"
+        },
+        "source_ids": [
+          "75eb0d9b-367f-5a7c-9283-9fb72f1c0385"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "实体表",
+        "origin_row": 9
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-GATE-0005",
+      "label": "Gate",
+      "name": "通化门",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "通化門",
+        "category": "外郭城门",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "门外附近有车工长店",
+        "source_key": "TC-REF-0001",
+        "description_quote": "通化門長店多是車工所居"
+      },
+      "source_ids": [
+        "5fdc06b7-9442-5be9-8939-363dfddf33a0"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.85,
+      "id": "683563fc-f630-56c5-8d6c-ae38166de8b4",
+      "normalized_name": "通化门",
+      "payload": {
+        "key": "TC-GATE-0005",
+        "label": "Gate",
+        "name": "通化门",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "通化門",
+          "category": "外郭城门",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "门外附近有车工长店",
+          "source_key": "TC-REF-0001",
+          "description_quote": "通化門長店多是車工所居"
+        },
+        "source_ids": [
+          "5fdc06b7-9442-5be9-8939-363dfddf33a0"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.85,
+        "origin_sheet": "实体表",
+        "origin_row": 10
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-CANAL-0002",
+      "label": "Canal",
+      "name": "永安渠",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "永安渠",
+        "category": "城市水渠",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "北流并经过多坊之西",
+        "source_key": "TC-REF-0001",
+        "description_quote": "永安渠又北流"
+      },
+      "source_ids": [
+        "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "normalized_name": "永安渠",
+      "payload": {
+        "key": "TC-CANAL-0002",
+        "label": "Canal",
+        "name": "永安渠",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "永安渠",
+          "category": "城市水渠",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "北流并经过多坊之西",
+          "source_key": "TC-REF-0001",
+          "description_quote": "永安渠又北流"
+        },
+        "source_ids": [
+          "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "实体表",
+        "origin_row": 14
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-ROAD-0009",
+      "label": "Road",
+      "name": "朱雀门街西第三街",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "朱雀門街西第三街",
+        "category": "苑城—城门贯通干道",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "朱雀门街西第三街，即皇城西第一街；南出安化门，北出芳林门入苑",
+        "location_text": "x=-3坊列的西侧边界道路",
+        "source_key": "TC-REF-0004",
+        "description_quote": "道路名称按同事道路主表校正"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.96,
+      "id": "b2e127d4-dcc4-5877-8a8b-3cfbe3b4d6c6",
+      "normalized_name": "朱雀门街西第三街",
+      "payload": {
+        "key": "TC-ROAD-0009",
+        "label": "Road",
+        "name": "朱雀门街西第三街",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "朱雀門街西第三街",
+          "category": "苑城—城门贯通干道",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "朱雀门街西第三街，即皇城西第一街；南出安化门，北出芳林门入苑",
+          "location_text": "x=-3坊列的西侧边界道路",
+          "source_key": "TC-REF-0004",
+          "description_quote": "道路名称按同事道路主表校正"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.96,
+        "origin_sheet": "实体表",
+        "origin_row": 22
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-ROAD-0004",
+      "label": "Road",
+      "name": "朱雀门街东第三街",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "朱雀門街東第三街",
+        "category": "宫城—城门贯通干道",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "朱雀门街东第三街，即皇城东第一街；北当兴安门，南当启夏门",
+        "location_text": "x=3坊列的东侧边界道路",
+        "source_key": "TC-REF-0004",
+        "description_quote": "道路名称按同事道路主表校正"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.96,
+      "id": "bee2856e-1744-56e5-b326-b848c91e8813",
+      "normalized_name": "朱雀门街东第三街",
+      "payload": {
+        "key": "TC-ROAD-0004",
+        "label": "Road",
+        "name": "朱雀门街东第三街",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "朱雀門街東第三街",
+          "category": "宫城—城门贯通干道",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "朱雀门街东第三街，即皇城东第一街；北当兴安门，南当启夏门",
+          "location_text": "x=3坊列的东侧边界道路",
+          "source_key": "TC-REF-0004",
+          "description_quote": "道路名称按同事道路主表校正"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.96,
+        "origin_sheet": "实体表",
+        "origin_row": 23
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-GATE-0006",
+      "label": "Gate",
+      "name": "安化门",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "安化門",
+        "category": "外郭城门",
+        "period_start": "唐",
+        "period_end": "8世纪前半期",
+        "description": "唐长安外郭城南面城门；位于南城西侧，连接TC-ROAD-0009",
+        "location_text": "外郭城南面西侧",
+        "source_key": "TC-REF-0003",
+        "description_quote": "图15标注安化门，并显示其北接现编号TC-ROAD-0009道路"
+      },
+      "source_ids": [
+        "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "id": "316d560e-f932-5530-9a77-27ff9f82850b",
+      "normalized_name": "安化门",
+      "payload": {
+        "key": "TC-GATE-0006",
+        "label": "Gate",
+        "name": "安化门",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "安化門",
+          "category": "外郭城门",
+          "period_start": "唐",
+          "period_end": "8世纪前半期",
+          "description": "唐长安外郭城南面城门；位于南城西侧，连接TC-ROAD-0009",
+          "location_text": "外郭城南面西侧",
+          "source_key": "TC-REF-0003",
+          "description_quote": "图15标注安化门，并显示其北接现编号TC-ROAD-0009道路"
+        },
+        "source_ids": [
+          "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.8,
+        "origin_sheet": "实体表",
+        "origin_row": 24
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-GATE-0007",
+      "label": "Gate",
+      "name": "启夏门",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "啟夏門",
+        "category": "外郭城门",
+        "period_start": "唐",
+        "period_end": "8世纪前半期",
+        "description": "唐长安外郭城南面城门；位于南城东侧，连接TC-ROAD-0004",
+        "location_text": "外郭城南面东侧",
+        "source_key": "TC-REF-0003",
+        "description_quote": "图15标注启夏门，并显示其北接现编号TC-ROAD-0004道路"
+      },
+      "source_ids": [
+        "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "id": "83438150-caa6-5cb0-a566-7a31eb0af3cd",
+      "normalized_name": "启夏门",
+      "payload": {
+        "key": "TC-GATE-0007",
+        "label": "Gate",
+        "name": "启夏门",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "啟夏門",
+          "category": "外郭城门",
+          "period_start": "唐",
+          "period_end": "8世纪前半期",
+          "description": "唐长安外郭城南面城门；位于南城东侧，连接TC-ROAD-0004",
+          "location_text": "外郭城南面东侧",
+          "source_key": "TC-REF-0003",
+          "description_quote": "图15标注启夏门，并显示其北接现编号TC-ROAD-0004道路"
+        },
+        "source_ids": [
+          "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.8,
+        "origin_sheet": "实体表",
+        "origin_row": 25
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-AREA-0003",
+      "label": "Area",
+      "name": "外郭城",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "外郭城",
+        "category": "城市外郭",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城外郭城，包围皇城以南及东西两侧的坊、市、道路与水渠",
+        "source_key": "TC-REF-0001",
+        "description_quote": "南當外郭之明德門"
+      },
+      "source_ids": [
+        "0005f4d4-d974-5fea-b152-f15d0d7c307c"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "id": "0efc8667-67ca-5f8f-8efc-2b13cb3b4cdf",
+      "normalized_name": "外郭城",
+      "payload": {
+        "key": "TC-AREA-0003",
+        "label": "Area",
+        "name": "外郭城",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "外郭城",
+          "category": "城市外郭",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城外郭城，包围皇城以南及东西两侧的坊、市、道路与水渠",
+          "source_key": "TC-REF-0001",
+          "description_quote": "南當外郭之明德門"
+        },
+        "source_ids": [
+          "0005f4d4-d974-5fea-b152-f15d0d7c307c"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "实体表",
+        "origin_row": 52
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-FANG-0026",
+      "label": "Fang",
+      "name": "崇仁坊",
+      "aliases": [
+        "昌化坊"
+      ],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "崇仁坊",
+        "category": "城市坊里",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城108坊之一；项目网格坐标(3,0)",
+        "location_text": "朱雀门街东第二街与东第三街之间",
+        "source_key": "TC-REF-0004",
+        "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+      },
+      "source_ids": [
+        "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "7d9610f4-330d-5598-a6be-7914af44774e",
+      "normalized_name": "崇仁坊",
+      "payload": {
+        "key": "TC-FANG-0026",
+        "label": "Fang",
+        "name": "崇仁坊",
+        "aliases": [
+          "昌化坊"
+        ],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "崇仁坊",
+          "category": "城市坊里",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城108坊之一；项目网格坐标(3,0)",
+          "location_text": "朱雀门街东第二街与东第三街之间",
+          "source_key": "TC-REF-0004",
+          "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+        },
+        "source_ids": [
+          "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 53
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-FANG-0027",
+      "label": "Fang",
+      "name": "平康坊",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "平康坊",
+        "category": "城市坊里",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城108坊之一；项目网格坐标(3,1)",
+        "location_text": "朱雀门街东第二街与东第三街之间",
+        "source_key": "TC-REF-0004",
+        "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+      },
+      "source_ids": [
+        "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "5f26d4af-51be-527a-bcaa-1057525787eb",
+      "normalized_name": "平康坊",
+      "payload": {
+        "key": "TC-FANG-0027",
+        "label": "Fang",
+        "name": "平康坊",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "平康坊",
+          "category": "城市坊里",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城108坊之一；项目网格坐标(3,1)",
+          "location_text": "朱雀门街东第二街与东第三街之间",
+          "source_key": "TC-REF-0004",
+          "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+        },
+        "source_ids": [
+          "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 54
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-FANG-0078",
+      "label": "Fang",
+      "name": "延康坊",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "延康坊",
+        "category": "城市坊里",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城108坊之一；项目网格坐标(-3,3)",
+        "location_text": "朱雀门街西第二街与西第三街之间",
+        "source_key": "TC-REF-0004",
+        "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "ea20c393-1ed8-5a1a-a076-25c9a147a589",
+      "normalized_name": "延康坊",
+      "payload": {
+        "key": "TC-FANG-0078",
+        "label": "Fang",
+        "name": "延康坊",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "延康坊",
+          "category": "城市坊里",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城108坊之一；项目网格坐标(-3,3)",
+          "location_text": "朱雀门街西第二街与西第三街之间",
+          "source_key": "TC-REF-0004",
+          "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 55
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-FANG-0079",
+      "label": "Fang",
+      "name": "崇贤坊",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "崇賢坊",
+        "category": "城市坊里",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城108坊之一；项目网格坐标(-3,4)",
+        "location_text": "朱雀门街西第二街与西第三街之间",
+        "source_key": "TC-REF-0004",
+        "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "9360e65e-f0d9-5c0c-a741-e6fa360dc40b",
+      "normalized_name": "崇贤坊",
+      "payload": {
+        "key": "TC-FANG-0079",
+        "label": "Fang",
+        "name": "崇贤坊",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "崇賢坊",
+          "category": "城市坊里",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城108坊之一；项目网格坐标(-3,4)",
+          "location_text": "朱雀门街西第二街与西第三街之间",
+          "source_key": "TC-REF-0004",
+          "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 56
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-FANG-0080",
+      "label": "Fang",
+      "name": "延福坊",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "延福坊",
+        "category": "城市坊里",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城108坊之一；项目网格坐标(-3,5)",
+        "location_text": "朱雀门街西第二街与西第三街之间",
+        "source_key": "TC-REF-0004",
+        "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "651bd12e-42a6-5fdb-af67-3b8e25fe10e6",
+      "normalized_name": "延福坊",
+      "payload": {
+        "key": "TC-FANG-0080",
+        "label": "Fang",
+        "name": "延福坊",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "延福坊",
+          "category": "城市坊里",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城108坊之一；项目网格坐标(-3,5)",
+          "location_text": "朱雀门街西第二街与西第三街之间",
+          "source_key": "TC-REF-0004",
+          "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 57
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-FANG-0081",
+      "label": "Fang",
+      "name": "永安坊",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "永安坊",
+        "category": "城市坊里",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城108坊之一；项目网格坐标(-3,6)",
+        "location_text": "朱雀门街西第二街与西第三街之间",
+        "source_key": "TC-REF-0004",
+        "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "5f939e31-4da7-5dd0-8ee1-62a64afb74d6",
+      "normalized_name": "永安坊",
+      "payload": {
+        "key": "TC-FANG-0081",
+        "label": "Fang",
+        "name": "永安坊",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "永安坊",
+          "category": "城市坊里",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城108坊之一；项目网格坐标(-3,6)",
+          "location_text": "朱雀门街西第二街与西第三街之间",
+          "source_key": "TC-REF-0004",
+          "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 58
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-FANG-0082",
+      "label": "Fang",
+      "name": "敦义坊",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "敦義坊",
+        "category": "城市坊里",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城108坊之一；项目网格坐标(-3,7)",
+        "location_text": "朱雀门街西第二街与西第三街之间",
+        "source_key": "TC-REF-0004",
+        "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "858794ef-0442-5309-aeab-d019c48696fc",
+      "normalized_name": "敦义坊",
+      "payload": {
+        "key": "TC-FANG-0082",
+        "label": "Fang",
+        "name": "敦义坊",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "敦義坊",
+          "category": "城市坊里",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城108坊之一；项目网格坐标(-3,7)",
+          "location_text": "朱雀门街西第二街与西第三街之间",
+          "source_key": "TC-REF-0004",
+          "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 59
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-FANG-0083",
+      "label": "Fang",
+      "name": "大通坊",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "大通坊",
+        "category": "城市坊里",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "唐长安城108坊之一；项目网格坐标(-3,8)",
+        "location_text": "朱雀门街西第二街与西第三街之间",
+        "source_key": "TC-REF-0004",
+        "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "id": "e4f054fe-1ebe-598e-b061-d38a2ef2720e",
+      "normalized_name": "大通坊",
+      "payload": {
+        "key": "TC-FANG-0083",
+        "label": "Fang",
+        "name": "大通坊",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "大通坊",
+          "category": "城市坊里",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "唐长安城108坊之一；项目网格坐标(-3,8)",
+          "location_text": "朱雀门街西第二街与西第三街之间",
+          "source_key": "TC-REF-0004",
+          "description_quote": "位置字段已按第二街与第三街之间修正；用户审核通过"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "实体表",
+        "origin_row": 60
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-ROAD-0003",
+      "label": "Road",
+      "name": "朱雀门街东第二街",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "朱雀門街東第二街",
+        "category": "城门—坊区南北干道",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "朱雀门街东第二街，北当皇城南面安上门",
+        "location_text": "x=3坊列的西侧边界道路",
+        "source_key": "TC-REF-0004",
+        "description_quote": "由同事道路主表补入"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.94,
+      "id": "0e40a6e7-c8ae-5619-8858-63f16a1f9aa5",
+      "normalized_name": "朱雀门街东第二街",
+      "payload": {
+        "key": "TC-ROAD-0003",
+        "label": "Road",
+        "name": "朱雀门街东第二街",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "朱雀門街東第二街",
+          "category": "城门—坊区南北干道",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "朱雀门街东第二街，北当皇城南面安上门",
+          "location_text": "x=3坊列的西侧边界道路",
+          "source_key": "TC-REF-0004",
+          "description_quote": "由同事道路主表补入"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.94,
+        "origin_sheet": "实体表",
+        "origin_row": 61
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "key": "TC-ROAD-0008",
+      "label": "Road",
+      "name": "朱雀门街西第二街",
+      "aliases": [],
+      "properties": {
+        "knowledge_layer": "FACT",
+        "name_traditional": "朱雀門街西第二街",
+        "category": "城门—坊区南北干道",
+        "period_start": "唐",
+        "period_end": "唐",
+        "description": "朱雀门街西第二街，北当皇城南面含光门",
+        "location_text": "x=-3坊列的东侧边界道路",
+        "source_key": "TC-REF-0004",
+        "description_quote": "由同事道路主表补入"
+      },
+      "source_ids": [
+        "f0686003-b259-5d4d-82df-3c1dd22805bd"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.93,
+      "id": "f4858204-c3e5-562e-87d5-7d0b5446b875",
+      "normalized_name": "朱雀门街西第二街",
+      "payload": {
+        "key": "TC-ROAD-0008",
+        "label": "Road",
+        "name": "朱雀门街西第二街",
+        "aliases": [],
+        "properties": {
+          "knowledge_layer": "FACT",
+          "name_traditional": "朱雀門街西第二街",
+          "category": "城门—坊区南北干道",
+          "period_start": "唐",
+          "period_end": "唐",
+          "description": "朱雀门街西第二街，北当皇城南面含光门",
+          "location_text": "x=-3坊列的东侧边界道路",
+          "source_key": "TC-REF-0004",
+          "description_quote": "由同事道路主表补入"
+        },
+        "source_ids": [
+          "f0686003-b259-5d4d-82df-3c1dd22805bd"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.93,
+        "origin_sheet": "实体表",
+        "origin_row": 62
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    }
+  ],
+  "relations": [
+    {
+      "id": "69b76a70-5222-50d3-8703-786e5c0d0ccf",
+      "key": "TC-SPATIAL-0001",
+      "source_id": "5f26d4af-51be-527a-bcaa-1057525787eb",
+      "target_id": "7d9610f4-330d-5598-a6be-7914af44774e",
+      "type": "SOUTH_OF",
+      "label": "平康坊位于崇仁坊南侧",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "崇仁坊(3,0)，平康坊(3,1)，y值向南递增",
+        "evidence_type": "坐标推导",
+        "note": "修正旧示例方向",
+        "source_key": "TC-FANG-0027",
+        "target_key": "TC-FANG-0026"
+      },
+      "source_ids": [
+        "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-SPATIAL-0001",
+        "source_key": "TC-FANG-0027",
+        "target_key": "TC-FANG-0026",
+        "type": "SOUTH_OF",
+        "label": "平康坊位于崇仁坊南侧",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "崇仁坊(3,0)，平康坊(3,1)，y值向南递增",
+          "evidence_type": "坐标推导",
+          "note": "修正旧示例方向"
+        },
+        "source_ids": [
+          "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "关系表",
+        "origin_row": 47
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "d7dfe5a0-6d02-5859-874a-c3aac50a10e4",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0026-0003",
+      "source_id": "7d9610f4-330d-5598-a6be-7914af44774e",
+      "target_id": "0e40a6e7-c8ae-5619-8858-63f16a1f9aa5",
+      "type": "NEAR",
+      "label": "崇仁坊邻近朱雀门街东第二街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录崇仁坊坐标(3,0)",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0026",
+        "target_key": "TC-ROAD-0003"
+      },
+      "source_ids": [
+        "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0026-0003",
+        "source_key": "TC-FANG-0026",
+        "target_key": "TC-ROAD-0003",
+        "type": "NEAR",
+        "label": "崇仁坊邻近朱雀门街东第二街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录崇仁坊坐标(3,0)",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 4
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "8a65c6f5-ad55-5bf4-9fd5-289bbff12cc4",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0026-0004",
+      "source_id": "7d9610f4-330d-5598-a6be-7914af44774e",
+      "target_id": "bee2856e-1744-56e5-b326-b848c91e8813",
+      "type": "NEAR",
+      "label": "崇仁坊邻近朱雀门街东第三街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录崇仁坊坐标(3,0)",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0026",
+        "target_key": "TC-ROAD-0004"
+      },
+      "source_ids": [
+        "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0026-0004",
+        "source_key": "TC-FANG-0026",
+        "target_key": "TC-ROAD-0004",
+        "type": "NEAR",
+        "label": "崇仁坊邻近朱雀门街东第三街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录崇仁坊坐标(3,0)",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 4
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "20209313-51ef-5b9c-8437-d38bee1517d0",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0027-0003",
+      "source_id": "5f26d4af-51be-527a-bcaa-1057525787eb",
+      "target_id": "0e40a6e7-c8ae-5619-8858-63f16a1f9aa5",
+      "type": "NEAR",
+      "label": "平康坊邻近朱雀门街东第二街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录平康坊坐标(3,1)",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0027",
+        "target_key": "TC-ROAD-0003"
+      },
+      "source_ids": [
+        "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0027-0003",
+        "source_key": "TC-FANG-0027",
+        "target_key": "TC-ROAD-0003",
+        "type": "NEAR",
+        "label": "平康坊邻近朱雀门街东第二街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录平康坊坐标(3,1)",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "4bd4d8d2-4f88-5c06-bb56-975b17d0b33c",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0027-0004",
+      "source_id": "5f26d4af-51be-527a-bcaa-1057525787eb",
+      "target_id": "bee2856e-1744-56e5-b326-b848c91e8813",
+      "type": "NEAR",
+      "label": "平康坊邻近朱雀门街东第三街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录平康坊坐标(3,1)",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0027",
+        "target_key": "TC-ROAD-0004"
+      },
+      "source_ids": [
+        "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0027-0004",
+        "source_key": "TC-FANG-0027",
+        "target_key": "TC-ROAD-0004",
+        "type": "NEAR",
+        "label": "平康坊邻近朱雀门街东第三街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录平康坊坐标(3,1)",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "8bcd1558-91bf-57e9-8e60-ebf7243bb881"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "448af6d1-ec69-5207-aa3c-af591d5a00f7",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0078-0008",
+      "source_id": "ea20c393-1ed8-5a1a-a076-25c9a147a589",
+      "target_id": "f4858204-c3e5-562e-87d5-7d0b5446b875",
+      "type": "NEAR",
+      "label": "延康坊邻近朱雀门街西第二街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录延康坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0078",
+        "target_key": "TC-ROAD-0008"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0078-0008",
+        "source_key": "TC-FANG-0078",
+        "target_key": "TC-ROAD-0008",
+        "type": "NEAR",
+        "label": "延康坊邻近朱雀门街西第二街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录延康坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 6
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "b2751577-00b4-540f-b7a2-c3f15e5d0398",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0078-0009",
+      "source_id": "ea20c393-1ed8-5a1a-a076-25c9a147a589",
+      "target_id": "b2e127d4-dcc4-5877-8a8b-3cfbe3b4d6c6",
+      "type": "NEAR",
+      "label": "延康坊邻近朱雀门街西第三街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录延康坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0078",
+        "target_key": "TC-ROAD-0009"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0078-0009",
+        "source_key": "TC-FANG-0078",
+        "target_key": "TC-ROAD-0009",
+        "type": "NEAR",
+        "label": "延康坊邻近朱雀门街西第三街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录延康坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 6
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "e47804f8-5048-598f-98ba-f6c78a84a692",
+      "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0078-0002",
+      "source_id": "ea20c393-1ed8-5a1a-a076-25c9a147a589",
+      "target_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "type": "NEAR",
+      "label": "延康坊邻近永安渠",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录延康坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0078",
+        "target_key": "TC-CANAL-0002"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0078-0002",
+        "source_key": "TC-FANG-0078",
+        "target_key": "TC-CANAL-0002",
+        "type": "NEAR",
+        "label": "延康坊邻近永安渠",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录延康坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 6
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "28d442d6-a034-5ab4-9d28-30bf83a2da17",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0079-0008",
+      "source_id": "9360e65e-f0d9-5c0c-a741-e6fa360dc40b",
+      "target_id": "f4858204-c3e5-562e-87d5-7d0b5446b875",
+      "type": "NEAR",
+      "label": "崇贤坊邻近朱雀门街西第二街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录崇贤坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0079",
+        "target_key": "TC-ROAD-0008"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0079-0008",
+        "source_key": "TC-FANG-0079",
+        "target_key": "TC-ROAD-0008",
+        "type": "NEAR",
+        "label": "崇贤坊邻近朱雀门街西第二街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录崇贤坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 7
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "f7f1a96d-746c-5bc3-87a4-0271611e4bb7",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0079-0009",
+      "source_id": "9360e65e-f0d9-5c0c-a741-e6fa360dc40b",
+      "target_id": "b2e127d4-dcc4-5877-8a8b-3cfbe3b4d6c6",
+      "type": "NEAR",
+      "label": "崇贤坊邻近朱雀门街西第三街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录崇贤坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0079",
+        "target_key": "TC-ROAD-0009"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0079-0009",
+        "source_key": "TC-FANG-0079",
+        "target_key": "TC-ROAD-0009",
+        "type": "NEAR",
+        "label": "崇贤坊邻近朱雀门街西第三街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录崇贤坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 7
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "d409dc63-f965-5cfc-8ddd-3eb9f63f5099",
+      "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0079-0002",
+      "source_id": "9360e65e-f0d9-5c0c-a741-e6fa360dc40b",
+      "target_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "type": "NEAR",
+      "label": "崇贤坊邻近永安渠",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录崇贤坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0079",
+        "target_key": "TC-CANAL-0002"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0079-0002",
+        "source_key": "TC-FANG-0079",
+        "target_key": "TC-CANAL-0002",
+        "type": "NEAR",
+        "label": "崇贤坊邻近永安渠",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录崇贤坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 7
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "c9d3dfab-1f8f-5afb-810d-1e4b3ce11df3",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0080-0008",
+      "source_id": "651bd12e-42a6-5fdb-af67-3b8e25fe10e6",
+      "target_id": "f4858204-c3e5-562e-87d5-7d0b5446b875",
+      "type": "NEAR",
+      "label": "延福坊邻近朱雀门街西第二街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录延福坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0080",
+        "target_key": "TC-ROAD-0008"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0080-0008",
+        "source_key": "TC-FANG-0080",
+        "target_key": "TC-ROAD-0008",
+        "type": "NEAR",
+        "label": "延福坊邻近朱雀门街西第二街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录延福坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "坊功能表",
+        "origin_row": 8
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "546183f7-0b5f-5b58-8402-d05030fc83d0",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0080-0009",
+      "source_id": "651bd12e-42a6-5fdb-af67-3b8e25fe10e6",
+      "target_id": "b2e127d4-dcc4-5877-8a8b-3cfbe3b4d6c6",
+      "type": "NEAR",
+      "label": "延福坊邻近朱雀门街西第三街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录延福坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0080",
+        "target_key": "TC-ROAD-0009"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0080-0009",
+        "source_key": "TC-FANG-0080",
+        "target_key": "TC-ROAD-0009",
+        "type": "NEAR",
+        "label": "延福坊邻近朱雀门街西第三街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录延福坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "坊功能表",
+        "origin_row": 8
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "144b3d76-815e-529c-bfa8-9a27cb73fa23",
+      "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0080-0002",
+      "source_id": "651bd12e-42a6-5fdb-af67-3b8e25fe10e6",
+      "target_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "type": "NEAR",
+      "label": "延福坊邻近永安渠",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录延福坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0080",
+        "target_key": "TC-CANAL-0002"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0080-0002",
+        "source_key": "TC-FANG-0080",
+        "target_key": "TC-CANAL-0002",
+        "type": "NEAR",
+        "label": "延福坊邻近永安渠",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录延福坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "坊功能表",
+        "origin_row": 8
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "74e1b120-c198-5bc1-be9c-8dd2e7f37cbd",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0081-0008",
+      "source_id": "5f939e31-4da7-5dd0-8ee1-62a64afb74d6",
+      "target_id": "f4858204-c3e5-562e-87d5-7d0b5446b875",
+      "type": "NEAR",
+      "label": "永安坊邻近朱雀门街西第二街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录永安坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0081",
+        "target_key": "TC-ROAD-0008"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0081-0008",
+        "source_key": "TC-FANG-0081",
+        "target_key": "TC-ROAD-0008",
+        "type": "NEAR",
+        "label": "永安坊邻近朱雀门街西第二街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录永安坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 9
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "7c6263f9-82c6-5bb8-92ee-a5995cdbb907",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0081-0009",
+      "source_id": "5f939e31-4da7-5dd0-8ee1-62a64afb74d6",
+      "target_id": "b2e127d4-dcc4-5877-8a8b-3cfbe3b4d6c6",
+      "type": "NEAR",
+      "label": "永安坊邻近朱雀门街西第三街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录永安坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0081",
+        "target_key": "TC-ROAD-0009"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0081-0009",
+        "source_key": "TC-FANG-0081",
+        "target_key": "TC-ROAD-0009",
+        "type": "NEAR",
+        "label": "永安坊邻近朱雀门街西第三街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录永安坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 9
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "8061cca2-ecde-5562-a251-971fbc545d5e",
+      "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0081-0002",
+      "source_id": "5f939e31-4da7-5dd0-8ee1-62a64afb74d6",
+      "target_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "type": "NEAR",
+      "label": "永安坊邻近永安渠",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录永安坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0081",
+        "target_key": "TC-CANAL-0002"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0081-0002",
+        "source_key": "TC-FANG-0081",
+        "target_key": "TC-CANAL-0002",
+        "type": "NEAR",
+        "label": "永安坊邻近永安渠",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录永安坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 9
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "2d61c04a-58a3-500a-a7fa-a1cccd5f40e3",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0082-0008",
+      "source_id": "858794ef-0442-5309-aeab-d019c48696fc",
+      "target_id": "f4858204-c3e5-562e-87d5-7d0b5446b875",
+      "type": "NEAR",
+      "label": "敦义坊邻近朱雀门街西第二街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录敦义坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0082",
+        "target_key": "TC-ROAD-0008"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0082-0008",
+        "source_key": "TC-FANG-0082",
+        "target_key": "TC-ROAD-0008",
+        "type": "NEAR",
+        "label": "敦义坊邻近朱雀门街西第二街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录敦义坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 10
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "6f350ccb-1c2c-56a6-9acc-57b28e22001e",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0082-0009",
+      "source_id": "858794ef-0442-5309-aeab-d019c48696fc",
+      "target_id": "b2e127d4-dcc4-5877-8a8b-3cfbe3b4d6c6",
+      "type": "NEAR",
+      "label": "敦义坊邻近朱雀门街西第三街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录敦义坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0082",
+        "target_key": "TC-ROAD-0009"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0082-0009",
+        "source_key": "TC-FANG-0082",
+        "target_key": "TC-ROAD-0009",
+        "type": "NEAR",
+        "label": "敦义坊邻近朱雀门街西第三街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录敦义坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 10
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "486d5429-5865-561d-87aa-d110083e652a",
+      "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0082-0002",
+      "source_id": "858794ef-0442-5309-aeab-d019c48696fc",
+      "target_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "type": "NEAR",
+      "label": "敦义坊邻近永安渠",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录敦义坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0082",
+        "target_key": "TC-CANAL-0002"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0082-0002",
+        "source_key": "TC-FANG-0082",
+        "target_key": "TC-CANAL-0002",
+        "type": "NEAR",
+        "label": "敦义坊邻近永安渠",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录敦义坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 10
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "9994167a-5fac-5e24-8f1f-6e6336db0c2b",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0083-0008",
+      "source_id": "e4f054fe-1ebe-598e-b061-d38a2ef2720e",
+      "target_id": "f4858204-c3e5-562e-87d5-7d0b5446b875",
+      "type": "NEAR",
+      "label": "大通坊邻近朱雀门街西第二街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录大通坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0083",
+        "target_key": "TC-ROAD-0008"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0083-0008",
+        "source_key": "TC-FANG-0083",
+        "target_key": "TC-ROAD-0008",
+        "type": "NEAR",
+        "label": "大通坊邻近朱雀门街西第二街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录大通坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 11
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "28d0002d-2d9d-59b7-af77-d1965a0fa3bd",
+      "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0083-0009",
+      "source_id": "e4f054fe-1ebe-598e-b061-d38a2ef2720e",
+      "target_id": "b2e127d4-dcc4-5877-8a8b-3cfbe3b4d6c6",
+      "type": "NEAR",
+      "label": "大通坊邻近朱雀门街西第三街",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录大通坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0083",
+        "target_key": "TC-ROAD-0009"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-ROAD-0083-0009",
+        "source_key": "TC-FANG-0083",
+        "target_key": "TC-ROAD-0009",
+        "type": "NEAR",
+        "label": "大通坊邻近朱雀门街西第三街",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录大通坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 11
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "c0809688-5287-5f68-a591-d2fc823b4cff",
+      "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0083-0002",
+      "source_id": "e4f054fe-1ebe-598e-b061-d38a2ef2720e",
+      "target_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "type": "NEAR",
+      "label": "大通坊邻近永安渠",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "同事108坊数据表记录大通坊编号与坐标",
+        "evidence_type": "数据表记录",
+        "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐",
+        "source_key": "TC-FANG-0083",
+        "target_key": "TC-CANAL-0002"
+      },
+      "source_ids": [
+        "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-FANG-NEAR-CANAL-0083-0002",
+        "source_key": "TC-FANG-0083",
+        "target_key": "TC-CANAL-0002",
+        "type": "NEAR",
+        "label": "大通坊邻近永安渠",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "同事108坊数据表记录大通坊编号与坐标",
+          "evidence_type": "数据表记录",
+          "note": "area按两条边界道路之间表达；道路主键已与同事道路表对齐"
+        },
+        "source_ids": [
+          "2c8658a8-0675-5e7f-b0d7-5304ad7a7b3f"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "坊功能表",
+        "origin_row": 11
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "2c26631d-74e4-5e8c-9765-ed1b1c6018c0",
+      "key": "TC-REL-AUTO-CANAL-PASS-0002-0083",
+      "source_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "target_id": "e4f054fe-1ebe-598e-b061-d38a2ef2720e",
+      "type": "FLOWS_THROUGH",
+      "label": "永安渠流经大通坊",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+        "evidence_type": "史料直述",
+        "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0083"
+      },
+      "source_ids": [
+        "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-CANAL-PASS-0002-0083",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0083",
+        "type": "FLOWS_THROUGH",
+        "label": "永安渠流经大通坊",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+          "evidence_type": "史料直述",
+          "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核"
+        },
+        "source_ids": [
+          "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "水渠表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "9166f03a-4644-5f8f-b7db-b671b7aebfb2",
+      "key": "TC-REL-AUTO-CANAL-PASS-0002-0082",
+      "source_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "target_id": "858794ef-0442-5309-aeab-d019c48696fc",
+      "type": "FLOWS_THROUGH",
+      "label": "永安渠流经敦义坊",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+        "evidence_type": "史料直述",
+        "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0082"
+      },
+      "source_ids": [
+        "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-CANAL-PASS-0002-0082",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0082",
+        "type": "FLOWS_THROUGH",
+        "label": "永安渠流经敦义坊",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+          "evidence_type": "史料直述",
+          "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核"
+        },
+        "source_ids": [
+          "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "水渠表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "fd86d48d-754b-5738-bb51-9013374d2d8e",
+      "key": "TC-REL-AUTO-CANAL-PASS-0002-0081",
+      "source_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "target_id": "5f939e31-4da7-5dd0-8ee1-62a64afb74d6",
+      "type": "FLOWS_THROUGH",
+      "label": "永安渠流经永安坊",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+        "evidence_type": "史料直述",
+        "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0081"
+      },
+      "source_ids": [
+        "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-CANAL-PASS-0002-0081",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0081",
+        "type": "FLOWS_THROUGH",
+        "label": "永安渠流经永安坊",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+          "evidence_type": "史料直述",
+          "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核"
+        },
+        "source_ids": [
+          "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "水渠表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "07190041-aefb-5f54-aa9e-b7908be8228a",
+      "key": "TC-REL-AUTO-CANAL-PASS-0002-0080",
+      "source_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "target_id": "651bd12e-42a6-5fdb-af67-3b8e25fe10e6",
+      "type": "FLOWS_THROUGH",
+      "label": "永安渠流经延福坊",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+        "evidence_type": "史料直述",
+        "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0080"
+      },
+      "source_ids": [
+        "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-CANAL-PASS-0002-0080",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0080",
+        "type": "FLOWS_THROUGH",
+        "label": "永安渠流经延福坊",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+          "evidence_type": "史料直述",
+          "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核"
+        },
+        "source_ids": [
+          "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "水渠表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "5930d4d6-7ea7-5126-b63e-9d508c7a185b",
+      "key": "TC-REL-AUTO-CANAL-PASS-0002-0079",
+      "source_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "target_id": "9360e65e-f0d9-5c0c-a741-e6fa360dc40b",
+      "type": "FLOWS_THROUGH",
+      "label": "永安渠流经崇贤坊",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+        "evidence_type": "史料直述",
+        "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0079"
+      },
+      "source_ids": [
+        "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-CANAL-PASS-0002-0079",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0079",
+        "type": "FLOWS_THROUGH",
+        "label": "永安渠流经崇贤坊",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+          "evidence_type": "史料直述",
+          "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核"
+        },
+        "source_ids": [
+          "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "水渠表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "ca9e4403-1269-524a-92fa-078aae85a7f6",
+      "key": "TC-REL-AUTO-CANAL-PASS-0002-0078",
+      "source_id": "f6df514b-2a13-5e6d-ac9a-029c818d35af",
+      "target_id": "ea20c393-1ed8-5a1a-a076-25c9a147a589",
+      "type": "FLOWS_THROUGH",
+      "label": "永安渠流经延康坊",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+        "evidence_type": "史料直述",
+        "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0078"
+      },
+      "source_ids": [
+        "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-CANAL-PASS-0002-0078",
+        "source_key": "TC-CANAL-0002",
+        "target_key": "TC-FANG-0078",
+        "type": "FLOWS_THROUGH",
+        "label": "永安渠流经延康坊",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "永安渠又北流經大通、敦義、永安、廷福、崇賢、延康六坊之西",
+          "evidence_type": "史料直述",
+          "note": "六坊主键已按同事108坊表补齐；流经关系待人工审核；‘廷福/延福’异文待扫描版复核"
+        },
+        "source_ids": [
+          "4eb5f5d5-0cea-5652-8d94-b52dfedbd561"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "水渠表",
+        "origin_row": 5
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "226bc237-d6ce-5874-9685-8a94b2131749",
+      "key": "TC-REL-AUTO-GATE-PART-0003-0003",
+      "source_id": "eb53fcc6-40d5-5235-8199-f78555c7e6c5",
+      "target_id": "0efc8667-67ca-5f8f-8efc-2b13cb3b4cdf",
+      "type": "PART_OF",
+      "label": "明德门属于外郭城",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "南當外郭之明德門",
+        "evidence_type": "史料直述",
+        "source_key": "TC-GATE-0003",
+        "target_key": "TC-AREA-0003"
+      },
+      "source_ids": [
+        "0005f4d4-d974-5fea-b152-f15d0d7c307c"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.95,
+      "payload": {
+        "key": "TC-REL-AUTO-GATE-PART-0003-0003",
+        "source_key": "TC-GATE-0003",
+        "target_key": "TC-AREA-0003",
+        "type": "PART_OF",
+        "label": "明德门属于外郭城",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "南當外郭之明德門",
+          "evidence_type": "史料直述"
+        },
+        "source_ids": [
+          "0005f4d4-d974-5fea-b152-f15d0d7c307c"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.95,
+        "origin_sheet": "城门表",
+        "origin_row": 6
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "a412118e-3316-50bf-a38d-08ee00db538e",
+      "key": "TC-REL-AUTO-GATE-PART-0004-0003",
+      "source_id": "23d9b77e-49d7-5451-aef4-41a1e40f3f77",
+      "target_id": "0efc8667-67ca-5f8f-8efc-2b13cb3b4cdf",
+      "type": "PART_OF",
+      "label": "春明门属于外郭城",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "春明門，時即稱東門",
+        "evidence_type": "史料直述",
+        "source_key": "TC-GATE-0004",
+        "target_key": "TC-AREA-0003"
+      },
+      "source_ids": [
+        "75eb0d9b-367f-5a7c-9283-9fb72f1c0385"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.9,
+      "payload": {
+        "key": "TC-REL-AUTO-GATE-PART-0004-0003",
+        "source_key": "TC-GATE-0004",
+        "target_key": "TC-AREA-0003",
+        "type": "PART_OF",
+        "label": "春明门属于外郭城",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "春明門，時即稱東門",
+          "evidence_type": "史料直述"
+        },
+        "source_ids": [
+          "75eb0d9b-367f-5a7c-9283-9fb72f1c0385"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.9,
+        "origin_sheet": "城门表",
+        "origin_row": 7
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "7b8e2848-4550-5d06-aa47-fd1202adb749",
+      "key": "TC-REL-AUTO-GATE-PART-0005-0003",
+      "source_id": "683563fc-f630-56c5-8d6c-ae38166de8b4",
+      "target_id": "0efc8667-67ca-5f8f-8efc-2b13cb3b4cdf",
+      "type": "PART_OF",
+      "label": "通化门属于外郭城",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "唐",
+        "evidence_quote": "通化門長店多是車工所居",
+        "evidence_type": "史料直述",
+        "source_key": "TC-GATE-0005",
+        "target_key": "TC-AREA-0003"
+      },
+      "source_ids": [
+        "5fdc06b7-9442-5be9-8939-363dfddf33a0"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.85,
+      "payload": {
+        "key": "TC-REL-AUTO-GATE-PART-0005-0003",
+        "source_key": "TC-GATE-0005",
+        "target_key": "TC-AREA-0003",
+        "type": "PART_OF",
+        "label": "通化门属于外郭城",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "唐",
+          "evidence_quote": "通化門長店多是車工所居",
+          "evidence_type": "史料直述"
+        },
+        "source_ids": [
+          "5fdc06b7-9442-5be9-8939-363dfddf33a0"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.85,
+        "origin_sheet": "城门表",
+        "origin_row": 8
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "f838a868-df59-53ad-bf80-1ff700db40d7",
+      "key": "TC-REL-AUTO-GATE-PART-0006-0003",
+      "source_id": "316d560e-f932-5530-9a77-27ff9f82850b",
+      "target_id": "0efc8667-67ca-5f8f-8efc-2b13cb3b4cdf",
+      "type": "PART_OF",
+      "label": "安化门属于外郭城",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "8世纪前半期",
+        "evidence_quote": "图15标注安化门，并显示其北接C、D两列坊之间的道路",
+        "evidence_type": "地图标注",
+        "source_key": "TC-GATE-0006",
+        "target_key": "TC-AREA-0003"
+      },
+      "source_ids": [
+        "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "payload": {
+        "key": "TC-REL-AUTO-GATE-PART-0006-0003",
+        "source_key": "TC-GATE-0006",
+        "target_key": "TC-AREA-0003",
+        "type": "PART_OF",
+        "label": "安化门属于外郭城",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "8世纪前半期",
+          "evidence_quote": "图15标注安化门，并显示其北接C、D两列坊之间的道路",
+          "evidence_type": "地图标注"
+        },
+        "source_ids": [
+          "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.8,
+        "origin_sheet": "城门表",
+        "origin_row": 9
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    },
+    {
+      "id": "5f2190f5-99ae-5f21-a5c6-6568d857b6c8",
+      "key": "TC-REL-AUTO-GATE-PART-0007-0003",
+      "source_id": "83438150-caa6-5cb0-a566-7a31eb0af3cd",
+      "target_id": "0efc8667-67ca-5f8f-8efc-2b13cb3b4cdf",
+      "type": "PART_OF",
+      "label": "启夏门属于外郭城",
+      "properties": {
+        "knowledge_layer": "FACT",
+        "period_start": "唐",
+        "period_end": "8世纪前半期",
+        "evidence_quote": "图15标注启夏门，并显示其北接G、H两列坊之间的道路",
+        "evidence_type": "地图标注",
+        "source_key": "TC-GATE-0007",
+        "target_key": "TC-AREA-0003"
+      },
+      "source_ids": [
+        "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2"
+      ],
+      "status": "approved",
+      "visibility": "researcher",
+      "confidence": 0.8,
+      "payload": {
+        "key": "TC-REL-AUTO-GATE-PART-0007-0003",
+        "source_key": "TC-GATE-0007",
+        "target_key": "TC-AREA-0003",
+        "type": "PART_OF",
+        "label": "启夏门属于外郭城",
+        "properties": {
+          "knowledge_layer": "FACT",
+          "period_start": "唐",
+          "period_end": "8世纪前半期",
+          "evidence_quote": "图15标注启夏门，并显示其北接G、H两列坊之间的道路",
+          "evidence_type": "地图标注"
+        },
+        "source_ids": [
+          "5f43b9fe-fd6a-5f64-97d8-7f4137a2eff2"
+        ],
+        "status": "approved",
+        "visibility": "researcher",
+        "confidence": 0.8,
+        "origin_sheet": "城门表",
+        "origin_row": 10
+      },
+      "created_at": null,
+      "updated_at": null,
+      "data_classification": "research_pilot"
+    }
+  ]
+}
