@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
-const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v4.xlsx";
+const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v5.xlsx";
 const outputDir = process.argv[3] ?? "05-Excel数据/平台导入包/唐长安小型样例_v1";
 const generatedAt = new Date().toISOString();
 const namespaceUrl = "6ba7b811-9dad-11d1-80b4-00c04fd430c8";
@@ -123,6 +123,26 @@ for (const r of rows("实体表").filter(r => !generatedEntityTypes.has(r.entity
   addEntity({key:r.entity_key,label:r.entity_type,name:r.name,aliases:aliases(r.aliases),properties:compact({knowledge_layer:"FACT",name_traditional:r.name_traditional,category:r.category,period_start:r.period_start,period_end:r.period_end,description:r.description,location_text:r.location_text,source_key:r.source_key,description_quote:r.description_quote}),source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence ?? 0.7)},r);
 }
 
+function topicEntityReady(record, key) {
+  const evidenceKeys=splitKeys(record.chunk_key);
+  return Boolean(key)
+    && !String(key).includes("待补")
+    && !String(record.note??"").includes("示例")
+    && evidenceKeys.length>0
+    && evidenceKeys.every(evidenceKey=>chunkKeys.has(evidenceKey));
+}
+function addTopicEntity(entity, record) {
+  if (entityKeySet.has(entity.key) || !topicEntityReady(record,entity.key)) return;
+  const status=statusMap(record.review_status);
+  addEntity({...entity,source_ids:evidenceIds(record),status,visibility:evidenceVisibility(status),confidence:Number(record.confidence??0.7)},record);
+}
+for(const r of rows("坊功能表")) addTopicEntity({key:r.fang_key,label:"Fang",name:r.name,aliases:aliases(r.aliases),properties:compact({knowledge_layer:"FACT",name_traditional:r.name_traditional,is_108_fang:r.is_108_fang,area:r.area,primary_function:r.primary_function,secondary_functions:splitKeys(r.secondary_functions),location_text:r.location_text,x:r.x,y:r.y,coordinate_system:r.coordinate_system,geometry_ref:r.geometry_ref,location_accuracy:r.location_accuracy,period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,note:r.note})},r);
+for(const r of rows("道路分级表")) addTopicEntity({key:r.road_key,label:"Road",name:r.name,aliases:aliases(r.aliases),properties:compact({knowledge_layer:"FACT",name_traditional:r.name_traditional,road_level:r.road_level,road_type:r.road_type,direction:r.direction,start_entity_key:r.start_entity_key,end_entity_key:r.end_entity_key,original_width_value:r.original_width_value,original_width_unit:r.original_width_unit,normalized_width_m:r.normalized_width_m,conversion_basis:r.conversion_basis,geometry_ref:r.geometry_ref,period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,note:r.note})},r);
+for(const r of rows("水渠表")) addTopicEntity({key:r.canal_key,label:"Canal",name:r.name,aliases:aliases(r.aliases),properties:compact({knowledge_layer:"FACT",name_traditional:r.name_traditional,canal_level:r.canal_level,direction:r.direction,water_use:r.water_use,supply_scope:r.supply_scope,location_text:r.location_text,geometry_ref:r.geometry_ref,period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,note:r.note})},r);
+for(const r of rows("城门表")) addTopicEntity({key:r.gate_key,label:"Gate",name:r.name,aliases:aliases(r.aliases),properties:compact({knowledge_layer:"FACT",name_traditional:r.name_traditional,gate_type:r.gate_type,wall_side:r.wall_side,position_text:r.position_text,gate_level:r.gate_level,gate_function:r.gate_function,original_width_value:r.original_width_value,original_width_unit:r.original_width_unit,normalized_width_m:r.normalized_width_m,passage_count:r.passage_count,longitude:r.longitude,latitude:r.latitude,crs:r.crs,location_source:r.location_source,location_accuracy:r.location_accuracy,built_year:r.built_year,renamed_year:r.renamed_year,abandoned_year:r.abandoned_year,period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,dispute_note:r.dispute_note})},r);
+for(const r of rows("地形表")) addTopicEntity({key:r.terrain_key,label:"TerrainFeature",name:r.name,aliases:aliases(r.aliases),properties:compact({knowledge_layer:"FACT",terrain_type:r.terrain_type,location_text:r.location_text,elevation_min_m:r.elevation_min_m,elevation_max_m:r.elevation_max_m,slope_direction:r.slope_direction,slope_value:r.slope_value,geomorphology_description:r.geomorphology_description,geometry_ref:r.geometry_ref,period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,note:r.note})},r);
+for(const r of rows("重要建筑与设施表")) addTopicEntity({key:r.building_key,label:r.entity_type||"Building",name:r.name,aliases:aliases(r.aliases),properties:compact({knowledge_layer:"FACT",name_traditional:r.name_traditional,building_type:r.building_type,primary_function:r.primary_function,secondary_functions:splitKeys(r.secondary_functions),built_year:r.built_year,rebuilt_year:r.rebuilt_year,abandoned_year:r.abandoned_year,location_text:r.location_text,x:r.x,y:r.y,coordinate_system:r.coordinate_system,longitude:r.longitude,latitude:r.latitude,crs:r.crs,geometry_ref:r.geometry_ref,period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,dispute_note:r.dispute_note})},r);
+
 for (const r of rows("功能分区规则")) {
   const status=statusMap(r.review_status);
   addEntity({key:r.rule_key,label:"FunctionalZoningRule",name:r.rule_name,aliases:[],properties:compact({knowledge_layer:"INTERPRETATION",rule_type:r.rule_type,scope:r.scope,condition_text:r.condition_text,conclusion_text:r.conclusion_text,related_fang_keys:splitKeys(r.related_fang_keys),related_road_keys:splitKeys(r.related_road_keys),related_canal_keys:splitKeys(r.related_canal_keys),related_market_keys:splitKeys(r.related_market_keys),related_palace_keys:splitKeys(r.related_palace_keys),positive_examples:r.positive_examples,exceptions:r.exceptions,inference_steps:r.inference_steps,period_start:r.period_start,period_end:r.period_end,evidence_type:r.evidence_type,note:r.note}),source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence ?? 0.7)},r);
@@ -171,9 +191,85 @@ function addRelation(relation,origin) {
 for(const r of rows("关系表").filter(
   r => !String(r.relation_key ?? "").startsWith("TC-REL-CLAIM-")
     && !String(r.relation_key ?? "").startsWith("TC-POPLINK-")
+    && !String(r.relation_key ?? "").startsWith("TC-REL-AUTO-")
 )){
  const status=statusMap(r.review_status);
  addRelation({key:r.relation_key,source_key:r.source_key,target_key:r.target_key,type:r.relation_type,label:r.relation_label,properties:compact({knowledge_layer:r.evidence_type==="推导结论"?"INTERPRETATION":"FACT",period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,evidence_type:r.evidence_type,note:r.note}),source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence??0.7)},r);
+}
+
+const symmetricRelationTypes = new Set(["CONNECTS_TO", "FACING", "NEAR"]);
+function relationAlreadyExists(sourceKey, type, targetKey) {
+  return relations.some(relation => {
+    const same = relation.properties.source_key === sourceKey && relation.type === type && relation.properties.target_key === targetKey;
+    const reverse = symmetricRelationTypes.has(type)
+      && relation.properties.source_key === targetKey && relation.type === type && relation.properties.target_key === sourceKey;
+    return same || reverse;
+  });
+}
+function topicRelationReady(record, sourceKey, targetKey, label) {
+  const sourceText = String(sourceKey ?? "");
+  const targetText = String(targetKey ?? "");
+  const evidenceKeys = splitKeys(record.chunk_key);
+  const reasons = [];
+  if (String(record.note ?? "").includes("示例")) reasons.push("示例行");
+  if (!sourceText || !targetText) reasons.push("关系端点为空");
+  if (sourceText.includes("待补") || targetText.includes("待补")) reasons.push("端点编号待补");
+  if (!entityKeySet.has(sourceText) || !entityKeySet.has(targetText)) reasons.push("端点实体不存在");
+  if (!evidenceKeys.length || evidenceKeys.some(key => !chunkKeys.has(key))) reasons.push("证据片段不存在");
+  if (reasons.length) {
+    warn("SKIPPED_TOPIC_RELATION", `${record.__sheet}第${record.__row}行未生成${label}：${reasons.join("、")}`, {sheet:record.__sheet,row:record.__row,source_key:sourceText,target_key:targetText});
+    return false;
+  }
+  return true;
+}
+function addTopicRelation({key,sourceKey,targetKey,type,label,record,extraProperties={}}) {
+  if (relationAlreadyExists(sourceKey,type,targetKey)) return;
+  if (!topicRelationReady(record,sourceKey,targetKey,label)) return;
+  const status=statusMap(record.review_status);
+  addRelation({
+    key,source_key:sourceKey,target_key:targetKey,type,label,
+    properties:compact({knowledge_layer:record.evidence_type==="推导结论"?"INTERPRETATION":"FACT",period_start:record.period_start,period_end:record.period_end,evidence_quote:record.evidence_quote,evidence_type:record.evidence_type,note:record.note,...extraProperties}),
+    source_ids:evidenceIds(record),status,visibility:evidenceVisibility(status),confidence:Number(record.confidence??0.7),
+  },record);
+}
+const suffix = key => String(key ?? "").split("-").at(-1);
+
+for (const r of rows("坊功能表")) {
+  for (const target of [r.primary_function,...splitKeys(r.secondary_functions)].filter(value=>value&&value!=="未判定")) addTopicRelation({key:`TC-REL-AUTO-FANG-FUNCTION-${suffix(r.fang_key)}-${String(target)}`,sourceKey:r.fang_key,targetKey:target,type:"HAS_FUNCTION",label:`${r.name}具有${target}功能`,record:r,extraProperties:{function_basis:r.function_basis}});
+  for (const target of splitKeys(r.nearby_road_keys)) addTopicRelation({key:`TC-REL-AUTO-FANG-NEAR-ROAD-${suffix(r.fang_key)}-${suffix(target)}`,sourceKey:r.fang_key,targetKey:target,type:"NEAR",label:`${r.name}邻近${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of splitKeys(r.nearby_canal_keys)) addTopicRelation({key:`TC-REL-AUTO-FANG-NEAR-CANAL-${suffix(r.fang_key)}-${suffix(target)}`,sourceKey:r.fang_key,targetKey:target,type:"NEAR",label:`${r.name}邻近${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of [...splitKeys(r.nearby_market_keys),...splitKeys(r.nearby_palace_keys)]) addTopicRelation({key:`TC-REL-AUTO-FANG-NEAR-OBJECT-${suffix(r.fang_key)}-${suffix(target)}`,sourceKey:r.fang_key,targetKey:target,type:"NEAR",label:`${r.name}邻近${entityByKey.get(target)?.name??target}`,record:r});
+}
+for (const r of rows("坊间空间关系")) addTopicRelation({key:r.spatial_relation_key,sourceKey:r.fang_a_key,targetKey:r.fang_b_key,type:r.spatial_relation_type,label:`${r.fang_a_name}${r.spatial_relation_type}${r.fang_b_name}`,record:r,extraProperties:{between_road_key:r.between_road_key,between_canal_key:r.between_canal_key,is_adjacent:r.is_adjacent}});
+for (const r of rows("坊内平面规则")) for (const target of splitKeys(r.applies_to_keys)) addTopicRelation({key:`TC-REL-AUTO-LAYOUT-APPLIES-${suffix(r.layout_rule_key)}-${suffix(target)}`,sourceKey:r.layout_rule_key,targetKey:target,type:"APPLIES_TO",label:`${r.rule_name}适用于${entityByKey.get(target)?.name??target}`,record:r});
+for (const r of rows("道路分级表")) {
+  for (const target of splitKeys(r.connected_gate_keys)) addTopicRelation({key:`TC-REL-AUTO-ROAD-GATE-${suffix(r.road_key)}-${suffix(target)}`,sourceKey:r.road_key,targetKey:target,type:"CONNECTS_TO",label:`${r.name}连接${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of splitKeys(r.passing_fang_keys)) addTopicRelation({key:`TC-REL-AUTO-ROAD-PASS-${suffix(r.road_key)}-${suffix(target)}`,sourceKey:r.road_key,targetKey:target,type:"PASSES_THROUGH",label:`${r.name}经过${entityByKey.get(target)?.name??target}`,record:r});
+}
+for (const r of rows("水渠表")) {
+  for (const target of splitKeys(r.water_source_key)) addTopicRelation({key:`TC-REL-AUTO-CANAL-SOURCE-${suffix(r.canal_key)}-${suffix(target)}`,sourceKey:r.canal_key,targetKey:target,type:"ORIGINATES_FROM",label:`${r.name}发源于${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of splitKeys(r.flows_to_key)) addTopicRelation({key:`TC-REL-AUTO-CANAL-FLOW-${suffix(r.canal_key)}-${suffix(target)}`,sourceKey:r.canal_key,targetKey:target,type:"FLOWS_INTO",label:`${r.name}流入${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of [...splitKeys(r.passing_area_keys),...splitKeys(r.passing_fang_keys)]) addTopicRelation({key:`TC-REL-AUTO-CANAL-PASS-${suffix(r.canal_key)}-${suffix(target)}`,sourceKey:r.canal_key,targetKey:target,type:"FLOWS_THROUGH",label:`${r.name}流经${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of splitKeys(r.supplied_entity_keys)) addTopicRelation({key:`TC-REL-AUTO-CANAL-SUPPLY-${suffix(r.canal_key)}-${suffix(target)}`,sourceKey:r.canal_key,targetKey:target,type:"SUPPLIES_WATER_TO",label:`${r.name}向${entityByKey.get(target)?.name??target}供水`,record:r});
+}
+for (const r of rows("城门表")) {
+  for (const target of splitKeys(r.parent_area_key)) addTopicRelation({key:`TC-REL-AUTO-GATE-PART-${suffix(r.gate_key)}-${suffix(target)}`,sourceKey:r.gate_key,targetKey:target,type:"PART_OF",label:`${r.name}属于${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of splitKeys(r.connected_road_keys)) addTopicRelation({key:`TC-REL-AUTO-GATE-ROAD-${suffix(r.gate_key)}-${suffix(target)}`,sourceKey:r.gate_key,targetKey:target,type:"CONNECTS_TO",label:`${r.name}连接${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of splitKeys(r.facing_gate_keys)) addTopicRelation({key:`TC-REL-AUTO-GATE-FACING-${suffix(r.gate_key)}-${suffix(target)}`,sourceKey:r.gate_key,targetKey:target,type:"FACING",label:`${r.name}与${entityByKey.get(target)?.name??target}相对`,record:r});
+}
+for (const r of rows("尺度关系表")) {
+  addTopicRelation({key:`TC-REL-AUTO-SCALE-A-${suffix(r.scale_key)}-${suffix(r.subject_a_key)}`,sourceKey:r.scale_key,targetKey:r.subject_a_key,type:"HAS_SUBJECT_A",label:`尺度比较对象A为${r.subject_a_name}`,record:r});
+  addTopicRelation({key:`TC-REL-AUTO-SCALE-B-${suffix(r.scale_key)}-${suffix(r.subject_b_key)}`,sourceKey:r.scale_key,targetKey:r.subject_b_key,type:"HAS_SUBJECT_B",label:`尺度比较对象B为${r.subject_b_name}`,record:r});
+}
+for (const r of rows("功能分区规则")) {
+  for (const target of splitKeys(r.related_fang_keys)) addTopicRelation({key:`TC-REL-AUTO-RULE-APPLIES-${suffix(r.rule_key)}-${suffix(target)}`,sourceKey:r.rule_key,targetKey:target,type:"APPLIES_TO",label:`${r.rule_name}适用于${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of [...splitKeys(r.related_road_keys),...splitKeys(r.related_canal_keys),...splitKeys(r.related_market_keys),...splitKeys(r.related_palace_keys)]) addTopicRelation({key:`TC-REL-AUTO-RULE-INVOLVES-${suffix(r.rule_key)}-${suffix(target)}`,sourceKey:r.rule_key,targetKey:target,type:"INVOLVES",label:`${r.rule_name}涉及${entityByKey.get(target)?.name??target}`,record:r});
+}
+for (const r of rows("地形表")) for (const target of splitKeys(r.covered_area_keys)) addTopicRelation({key:`TC-REL-AUTO-TERRAIN-COVER-${suffix(r.terrain_key)}-${suffix(target)}`,sourceKey:r.terrain_key,targetKey:target,type:"COVERS",label:`${r.name}覆盖${entityByKey.get(target)?.name??target}`,record:r});
+for (const r of rows("重要建筑与设施表")) {
+  for (const target of [...splitKeys(r.parent_area_key),...splitKeys(r.located_fang_key)]) addTopicRelation({key:`TC-REL-AUTO-BUILDING-AREA-${suffix(r.building_key)}-${suffix(target)}`,sourceKey:r.building_key,targetKey:target,type:"LOCATED_IN",label:`${r.name}位于${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of splitKeys(r.connected_road_keys)) addTopicRelation({key:`TC-REL-AUTO-BUILDING-ROAD-${suffix(r.building_key)}-${suffix(target)}`,sourceKey:r.building_key,targetKey:target,type:"CONNECTS_TO",label:`${r.name}连接${entityByKey.get(target)?.name??target}`,record:r});
+  for (const target of splitKeys(r.nearby_canal_keys)) addTopicRelation({key:`TC-REL-AUTO-BUILDING-CANAL-${suffix(r.building_key)}-${suffix(target)}`,sourceKey:r.building_key,targetKey:target,type:"NEAR",label:`${r.name}邻近${entityByKey.get(target)?.name??target}`,record:r});
 }
 
 for(const r of claimRows){
