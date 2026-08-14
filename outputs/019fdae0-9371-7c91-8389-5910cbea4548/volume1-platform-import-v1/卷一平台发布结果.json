@@ -1,0 +1,21 @@
+{
+  "selection_counts": {
+    "entity_ids": 565,
+    "relation_ids": 870,
+    "source_ids": 1,
+    "source_chunk_ids": 50
+  },
+  "release": {
+    "id": "9113652c-eafe-45e5-bdf8-7303906daec0",
+    "version": 6,
+    "name": "唐长安城第六批：《唐两京城坊考》卷一",
+    "status": "published",
+    "sync_status": "pending",
+    "snapshot_counts": {
+      "entities": 0,
+      "relations": 0,
+      "sources": 0,
+      "source_chunks": 0
+    }
+  }
+}

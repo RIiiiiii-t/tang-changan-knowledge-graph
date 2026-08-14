@@ -24,6 +24,15 @@
 
 `Fang`、`Market`、`Road`、`Canal`、`Gate`、`Area`、`Building`、`TerrainFeature`、`WaterBody`、`LayoutRule`、`ScaleComparison`、`FunctionalZoningRule`、`InterpretiveClaim`、`Person`。
 
+## 协作登记对象与正式实体的区别
+
+协作表中的“主实体登记表”是编号、名称和查重的公共目录，不是可直接发布的正式实体表。
+
+- `Fang`、`Road`、`Canal`、`Gate`：可先登记稳定编号和最小识别信息；只有来源、片段与必要字段齐全后，才转入正式实体表。
+- `ScaleComparison`：先登记比较编号和比较对象名称；必须补齐两个比较对象、指标、单位、可比性和证据后，才转入正式实体/关系系统。
+- `Rule`：先登记规则编号、名称和范围；必须补齐条件、结论、正例、例外、推理过程、来源与片段后，才作为 `FunctionalZoningRule` 或 `InterpretiveClaim` 转入正式系统。
+- “待补字段”“待补证据”“待核对”均不等于审核通过，不能进入发布白名单。
+
 ## 常用关系类型
 
 - 空间：`LOCATED_IN`、`EAST_OF`、`WEST_OF`、`NORTH_OF`、`SOUTH_OF`、`ADJACENT_TO`、`NEAR`、`FACING`。

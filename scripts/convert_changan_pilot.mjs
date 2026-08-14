@@ -5,6 +5,7 @@ import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 
 const inputPath = process.argv[2] ?? "05-Excel数据/小型样例_第1批_文献片段与基础对象_v10.xlsx";
 const outputDir = process.argv[3] ?? "05-Excel数据/平台导入包_唐长安小型样例_v6";
+const authoritativeRelations = process.argv.includes("--authoritative-relations");
 const generatedAt = new Date().toISOString();
 const namespaceUrl = "6ba7b811-9dad-11d1-80b4-00c04fd430c8";
 
@@ -189,9 +190,10 @@ function addRelation(relation,origin) {
 }
 
 for(const r of rows("关系表").filter(
-  r => !String(r.relation_key ?? "").startsWith("TC-REL-CLAIM-")
-    && !String(r.relation_key ?? "").startsWith("TC-POPLINK-")
-    && !String(r.relation_key ?? "").startsWith("TC-REL-AUTO-")
+  r => authoritativeRelations
+    || (!String(r.relation_key ?? "").startsWith("TC-REL-CLAIM-")
+      && !String(r.relation_key ?? "").startsWith("TC-POPLINK-")
+      && !String(r.relation_key ?? "").startsWith("TC-REL-AUTO-"))
 )){
  const status=statusMap(r.review_status);
  addRelation({key:r.relation_key,source_key:r.source_key,target_key:r.target_key,type:r.relation_type,label:r.relation_label,properties:compact({knowledge_layer:r.evidence_type==="推导结论"?"INTERPRETATION":"FACT",period_start:r.period_start,period_end:r.period_end,evidence_quote:r.evidence_quote,evidence_type:r.evidence_type,note:r.note}),source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence??0.7)},r);
@@ -223,6 +225,7 @@ function topicRelationReady(record, sourceKey, targetKey, label) {
   return true;
 }
 function addTopicRelation({key,sourceKey,targetKey,type,label,record,extraProperties={}}) {
+  if (authoritativeRelations) return;
   if (relationAlreadyExists(sourceKey,type,targetKey)) return;
   if (!topicRelationReady(record,sourceKey,targetKey,label)) return;
   const status=statusMap(record.review_status);
@@ -272,12 +275,12 @@ for (const r of rows("重要建筑与设施表")) {
   for (const target of splitKeys(r.nearby_canal_keys)) addTopicRelation({key:`TC-REL-AUTO-BUILDING-CANAL-${suffix(r.building_key)}-${suffix(target)}`,sourceKey:r.building_key,targetKey:target,type:"NEAR",label:`${r.name}邻近${entityByKey.get(target)?.name??target}`,record:r});
 }
 
-for(const r of claimRows){
+for(const r of authoritativeRelations ? [] : claimRows){
  const targets=splitKeys(r.subject_keys); const status=statusMap(r.review_status);
  targets.forEach((target,index)=>addRelation({key:`TC-REL-${r.claim_key.replace("TC-CLAIM-", "CLAIM-")}-${String(index+1).padStart(2,"0")}`,source_key:r.claim_key,target_key:target,type:r.subject_relation_type||"INTERPRETS",label:relationLabelMap[r.subject_relation_type]||"解释",properties:{knowledge_layer:"INTERPRETATION",proposed_by:r.proposed_by,scope:r.scope,limitations:r.limitations},source_ids:evidenceIds(r),status,visibility:evidenceVisibility(status),confidence:Number(r.confidence??0.7)},r));
 }
 
-for(const r of popularLinks){
+for(const r of authoritativeRelations ? [] : popularLinks){
  if(r.evidence_object_type==="CHUNK" || r.evidence_object_type==="SOURCE" || r.evidence_object_type==="RELATION") continue;
  const target=entityByKey.get(r.evidence_key);
  const content=entityByKey.get(r.content_key);

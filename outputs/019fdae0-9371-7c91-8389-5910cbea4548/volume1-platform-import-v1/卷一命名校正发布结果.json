@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "key": "TC-BUILDING-2275",
+    "name": "兴庆宫翰林院"
+  },
+  "relations_updated": [
+    "TC-REL-AUTO-LOCATED_IN-2275-2270",
+    "TC-REL-AUTO-EAST_OF-2275-2115"
+  ],
+  "release_version": 7,
+  "release_id": "8c02c2e4-7316-4fa4-8a04-5a2e4c90b91b"
+}

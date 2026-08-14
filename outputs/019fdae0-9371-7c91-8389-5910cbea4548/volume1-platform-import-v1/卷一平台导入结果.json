@@ -1,0 +1,31 @@
+{
+  "package": {
+    "sources": 2,
+    "source_chunks": 50,
+    "entities": 574,
+    "relations": 886
+  },
+  "before": {
+    "sources": 7,
+    "source_chunks": 32,
+    "entities": 59,
+    "relations": 77
+  },
+  "overlaps": {
+    "sources": 2,
+    "source_chunks": 0,
+    "entities": 7,
+    "relations": 0
+  },
+  "after": {
+    "sources": 7,
+    "source_chunks": 82,
+    "entities": 626,
+    "relations": 963
+  },
+  "indexed_documents": 75,
+  "status_counts": {
+    "approved": 1442,
+    "draft": 18
+  }
+}
