@@ -1,0 +1,11 @@
+{
+  "sources": 4,
+  "source_chunks": 112,
+  "entities": 1212,
+  "relations": 1576,
+  "merged_entity_keys": 11,
+  "merged_chunk_keys": 0,
+  "merged_relation_keys_or_triples": 5,
+  "orphan_relations": 0,
+  "bad_evidence_references": 0
+}
