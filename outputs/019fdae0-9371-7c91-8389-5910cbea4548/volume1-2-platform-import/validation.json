@@ -1,0 +1,9 @@
+{
+  "sources": 3,
+  "source_chunks": 72,
+  "entities": 765,
+  "relations": 1128,
+  "merged_entity_keys": 7,
+  "merged_relation_keys": 5,
+  "orphan_relations": 0
+}
