@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "chunks": 60,
+    "entities": 368,
+    "relations": 386,
+    "fangs": 55,
+    "spatial": 50,
+    "roads": 5,
+    "canals": 5,
+    "buildings": 297
+  },
+  "duplicateEntityKeys": [],
+  "duplicateRelationKeys": [],
+  "orphanSource": [],
+  "orphanTarget": [],
+  "badRelationChunk": [],
+  "badEntityChunk": [],
+  "badBuildingChunk": [],
+  "buildingQuoteNotInChunk": [],
+  "buildingMissingEntity": [],
+  "building3000": [],
+  "oldKeyConflicts": [],
+  "badSpatialBoundaries": [],
+  "fangMissingCoord": [],
+  "fangMissingRoad": [],
+  "badFunctionFormat": [],
+  "canalMissingStructured": [],
+  "roadKeys": [
+    "TC-ROAD-0007",
+    "TC-ROAD-0008",
+    "TC-ROAD-0009",
+    "TC-ROAD-0010",
+    "TC-ROAD-0011"
+  ],
+  "sourcePath": "03-原始文献/唐两京城坊考_徐松/唐兩京城坊考_卷四.epub"
+}
